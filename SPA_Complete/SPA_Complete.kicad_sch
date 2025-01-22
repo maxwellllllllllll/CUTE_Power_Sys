@@ -1,0 +1,2138 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "eadbdca0-dd18-45e2-be8c-db62a6dcf7de")
+	(paper "A4")
+	(title_block
+		(title "SPA Driver")
+		(date "2024-08-22")
+		(company "Columbia Plasma Physics Laboratory")
+		(comment 1 "Author: Maxwell Epstein")
+	)
+	(lib_symbols
+		(symbol "DIY_ICs:AC_Input"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AC"
+				(at 7.62 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AC_Input_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.635)
+					(mid -0.635 1.2673)
+					(end -1.27 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.635)
+					(mid 0.635 0.0027)
+					(end 1.27 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.635)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AC_Input_1_1"
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 3.81 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPST"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Double Pole Single Throw (DPST) Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual double-pole single-throw OFF-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPST_0_0"
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy 1.27 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.794) (xy 1.27 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPST_1_1"
+				(rectangle
+					(start -3.175 4.445)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 172.72 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "395a899c-e000-41e6-9a88-74db02705768")
+	)
+	(junction
+		(at 165.1 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cbb9dd2-8aa4-431a-819a-86a07d888e8b")
+	)
+	(junction
+		(at 167.64 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5119278f-f8f4-4ee6-9d3a-ca7a4808db9f")
+	)
+	(junction
+		(at 172.72 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "541e4904-f00d-4b5d-9bae-dbf0325ca968")
+	)
+	(junction
+		(at 167.64 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "570c8794-55fa-4e3c-96e8-081993f9826a")
+	)
+	(junction
+		(at 167.64 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f7465c-719b-4d6d-97b3-fb42086b947c")
+	)
+	(junction
+		(at 170.18 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62c2ff36-0f5f-46e3-abb4-0263a18bce2d")
+	)
+	(junction
+		(at 165.1 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70844186-cb4c-445b-8e71-f565345f82ca")
+	)
+	(junction
+		(at 170.18 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7203a5a8-1f7b-4181-9b83-f3ebc0ee0018")
+	)
+	(junction
+		(at 172.72 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99b76962-45b9-4919-a8cb-fea4ad01f878")
+	)
+	(junction
+		(at 170.18 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd16868b-f448-4711-9a04-e43d59712a07")
+	)
+	(junction
+		(at 165.1 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1f87bcb-2afc-4a9e-8cb4-e78a84e9e617")
+	)
+	(wire
+		(pts
+			(xy 167.64 72.39) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0197a4ac-daf9-4fc5-aa06-68788d1dc39f")
+	)
+	(wire
+		(pts
+			(xy 269.24 130.81) (xy 266.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a49997-5b0e-4752-bff8-efbaa2c22609")
+	)
+	(wire
+		(pts
+			(xy 45.72 162.56) (xy 45.72 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d63a73-55e4-4c88-a8ba-9829e61f7f32")
+	)
+	(wire
+		(pts
+			(xy 167.64 172.72) (xy 129.54 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1536cf4e-df25-4c35-831c-a926a540a005")
+	)
+	(wire
+		(pts
+			(xy 269.24 120.65) (xy 269.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17689d24-28ec-4c8b-98fe-672e394c86bb")
+	)
+	(wire
+		(pts
+			(xy 204.47 39.37) (xy 167.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21578f5b-ae80-4889-b123-9bb49369d7b4")
+	)
+	(wire
+		(pts
+			(xy 204.47 20.32) (xy 154.94 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cbe61c-b7ee-473c-b8a0-73e2780f8f31")
+	)
+	(wire
+		(pts
+			(xy 172.72 29.21) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25133f2c-7463-455a-9ef9-84a5edef69af")
+	)
+	(wire
+		(pts
+			(xy 43.18 157.48) (xy 40.64 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b5e16e-f012-476d-865c-55426f46c7a8")
+	)
+	(wire
+		(pts
+			(xy 45.72 152.4) (xy 40.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cf6994-7fb8-499f-b738-08613e5bb880")
+	)
+	(wire
+		(pts
+			(xy 170.18 26.67) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e143e1e-1456-4b9c-9e22-c648011c292c")
+	)
+	(wire
+		(pts
+			(xy 167.64 140.97) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9e8fcc-e26b-494d-b6ce-2e72c7e0a656")
+	)
+	(wire
+		(pts
+			(xy 162.56 156.21) (xy 162.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30598ef6-cea6-4887-ba03-ad6383e5cea2")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 204.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34efdb59-4a2a-446f-9ee9-bd1b2045a250")
+	)
+	(wire
+		(pts
+			(xy 269.24 86.36) (xy 269.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c70df8-87e5-4a57-ae87-4cfbd05774f0")
+	)
+	(wire
+		(pts
+			(xy 172.72 130.81) (xy 129.54 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc03ac5-11b0-439b-9cec-2ac2a17eda31")
+	)
+	(wire
+		(pts
+			(xy 266.7 120.65) (xy 269.24 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4070ee09-85c2-489a-ab86-5c692b6b91ec")
+	)
+	(wire
+		(pts
+			(xy 204.47 62.23) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417c83c7-3b06-4525-8935-30d0ef12a6a5")
+	)
+	(wire
+		(pts
+			(xy 129.54 128.27) (xy 170.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b2a017-0e86-4ea5-89ee-9e76a85938ef")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 204.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cdadb2-6b25-4e8a-a9b0-89fd456fdf39")
+	)
+	(wire
+		(pts
+			(xy 165.1 138.43) (xy 204.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b99616-5b05-45b1-b7ce-d54d03e5f1b3")
+	)
+	(wire
+		(pts
+			(xy 160.02 151.13) (xy 129.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cc21d4-9301-4b16-a279-803c3b8ba7b6")
+	)
+	(wire
+		(pts
+			(xy 204.47 69.85) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c25102c-3de2-44bd-8214-779f3deedcad")
+	)
+	(wire
+		(pts
+			(xy 43.18 168.91) (xy 54.61 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d162729-d698-43ff-a225-cf2cd7bbb3c6")
+	)
+	(wire
+		(pts
+			(xy 154.94 140.97) (xy 129.54 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d76cc84-b676-4058-92a6-c440c4346a85")
+	)
+	(wire
+		(pts
+			(xy 204.47 87.63) (xy 160.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4f9599-d21b-4e73-9cab-6564c486c335")
+	)
+	(wire
+		(pts
+			(xy 269.24 29.21) (xy 266.7 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c172d71-8625-4a53-aeeb-7842e3e4e4c3")
+	)
+	(wire
+		(pts
+			(xy 269.24 96.52) (xy 269.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6387cbaa-c04f-4515-b4e1-286060dde38f")
+	)
+	(wire
+		(pts
+			(xy 129.54 156.21) (xy 162.56 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0aeb3c-b9ac-44df-8c5b-ef678d87b743")
+	)
+	(wire
+		(pts
+			(xy 266.7 52.07) (xy 269.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea86252-80f1-4278-898c-cffd79dc1c9e")
+	)
+	(wire
+		(pts
+			(xy 165.1 138.43) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f235c35-188d-4745-a8ea-f186002e3651")
+	)
+	(wire
+		(pts
+			(xy 269.24 62.23) (xy 269.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb027ff-5722-40cd-aab2-dfbb92f007b5")
+	)
+	(wire
+		(pts
+			(xy 269.24 96.52) (xy 266.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c5d0d1-436d-4cf0-8b33-86afe80e86cd")
+	)
+	(wire
+		(pts
+			(xy 43.18 157.48) (xy 43.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772f64e8-a1f3-4fda-9e64-f9cc3231ef89")
+	)
+	(wire
+		(pts
+			(xy 172.72 62.23) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7813cb3a-2b84-4f98-a817-70f4f11428cf")
+	)
+	(wire
+		(pts
+			(xy 170.18 128.27) (xy 204.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6207eb-97cb-4b5e-bd33-0c3a5e1ce1ff")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 160.02 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb8991d-caa2-4704-88e8-c049730ad06a")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 204.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edd89f2-d0cc-452b-a070-e3894d1ad397")
+	)
+	(wire
+		(pts
+			(xy 204.47 26.67) (xy 170.18 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80139d54-cb9b-49a1-99ff-fdafbcac015a")
+	)
+	(wire
+		(pts
+			(xy 269.24 130.81) (xy 269.24 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804a52cc-ea36-4dc4-bbfc-5da76e3dc822")
+	)
+	(wire
+		(pts
+			(xy 269.24 29.21) (xy 269.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828948d3-bf22-4aa7-b1b3-725279146233")
+	)
+	(wire
+		(pts
+			(xy 19.05 158.75) (xy 30.48 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f458fa-c152-4541-a46e-3bd17a779906")
+	)
+	(wire
+		(pts
+			(xy 204.47 59.69) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851d9399-e710-4075-b936-1600f3bc5ade")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 204.47 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b92ae84-681e-4948-be57-f3cedf884533")
+	)
+	(wire
+		(pts
+			(xy 45.72 166.37) (xy 54.61 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92039e70-0cbd-47b3-8fc8-89907fcbb63f")
+	)
+	(wire
+		(pts
+			(xy 129.54 170.18) (xy 165.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92482fd2-41ad-4f94-a66f-ba26363d4d42")
+	)
+	(wire
+		(pts
+			(xy 45.72 154.94) (xy 45.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a5aab1-7f32-4b2a-a473-b81a963a2087")
+	)
+	(wire
+		(pts
+			(xy 167.64 39.37) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d55c29-20d5-4de4-8584-2967f66f5fe5")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 165.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb7fed8-8ebb-4310-a1b7-64677e960a2d")
+	)
+	(wire
+		(pts
+			(xy 204.47 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade665e2-c0ee-4931-94c9-f183717b779a")
+	)
+	(wire
+		(pts
+			(xy 154.94 20.32) (xy 154.94 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61aac6d-2309-42c9-8329-0a386aebd206")
+	)
+	(wire
+		(pts
+			(xy 269.24 62.23) (xy 266.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb90b6a7-28e5-439d-8181-b574db366f18")
+	)
+	(wire
+		(pts
+			(xy 266.7 86.36) (xy 269.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe9a21a-1830-4b03-b609-793a1dfe72d6")
+	)
+	(wire
+		(pts
+			(xy 269.24 19.05) (xy 269.24 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca3cad3-c22b-4dfd-a1f9-e9698bb9b060")
+	)
+	(wire
+		(pts
+			(xy 204.47 29.21) (xy 172.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53d29f4-e78f-4c78-8dba-cf5de9139896")
+	)
+	(wire
+		(pts
+			(xy 269.24 52.07) (xy 269.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c996d817-5e99-43d3-bd52-1014c3bdd8cc")
+	)
+	(wire
+		(pts
+			(xy 204.47 72.39) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2d52df-9205-4e7e-bc6e-210f56ad2951")
+	)
+	(wire
+		(pts
+			(xy 157.48 146.05) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf969857-178f-4848-8b41-638512fd759e")
+	)
+	(wire
+		(pts
+			(xy 266.7 19.05) (xy 269.24 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d853ccb1-26c0-4451-9410-39c071b872a1")
+	)
+	(wire
+		(pts
+			(xy 204.47 140.97) (xy 167.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9fff70-a011-4884-9cd2-81dcb66078d2")
+	)
+	(wire
+		(pts
+			(xy 165.1 170.18) (xy 165.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc62f500-af65-4084-83f0-3d33b944a2ca")
+	)
+	(wire
+		(pts
+			(xy 129.54 146.05) (xy 157.48 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14c2351-3f19-4969-b2dc-fb754f242dba")
+	)
+	(wire
+		(pts
+			(xy 172.72 130.81) (xy 204.47 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57b46fc-cede-43ee-a7df-d3f815d5b617")
+	)
+	(wire
+		(pts
+			(xy 30.48 158.75) (xy 30.48 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f3908a-6985-46a8-ab8b-8b9fb46da233")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdb7296-b2a7-4c45-aef7-11c231c26a1f")
+	)
+	(wire
+		(pts
+			(xy 167.64 140.97) (xy 167.64 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede8389c-c67a-493d-85c9-9da6c1129ef0")
+	)
+	(wire
+		(pts
+			(xy 165.1 69.85) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0d0710-531a-42f6-933f-ff70130e3e65")
+	)
+	(wire
+		(pts
+			(xy 165.1 36.83) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b48fd3-b255-4ff7-a01e-7e7be16a8948")
+	)
+	(wire
+		(pts
+			(xy 19.05 152.4) (xy 30.48 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87809ad-f31e-45e8-8c44-6246defbac7a")
+	)
+	(wire
+		(pts
+			(xy 170.18 59.69) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa9c843-3dd7-4bd8-ac94-b3ea95b90970")
+	)
+	(wire
+		(pts
+			(xy 170.18 93.98) (xy 170.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc73416-2034-477e-a5c0-6a48a47c6fff")
+	)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 204.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1e91a5-b6a9-4aae-8b33-c342c1883424")
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 45.72 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e893d23-fa6e-4b71-8a90-ea8f16a6c843")
+		(property "Reference" "F1"
+			(at 48.26 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 48.26 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.942 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 45.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08eb7f8c-d5f0-4668-806b-fb1a85b3e6ca")
+		)
+		(pin "2"
+			(uuid "e3f1126f-fafe-4048-b463-4c3bd242cac5")
+		)
+		(instances
+			(project ""
+				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DIY_ICs:AC_Input")
+		(at 19.05 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85fc1288-86b8-46c2-8d05-a35c6e09cf07")
+		(property "Reference" "AC1"
+			(at 22.86 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 22.86 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8695c4f5-8a6b-421a-a174-d388fe84447b")
+		)
+		(pin "2"
+			(uuid "1135a844-7da0-4cfd-a125-fbd9a23f9dc6")
+		)
+		(instances
+			(project ""
+				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
+					(reference "AC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST")
+		(at 35.56 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6605b23-8761-498f-8369-ee807d4db3b5")
+		(property "Reference" "SW2"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST"
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
+			(at 35.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "36a4a95c-30e8-4243-8939-29edfe508284")
+		)
+		(pin "2"
+			(uuid "b1946925-a8d1-472f-8871-3887d1d262fc")
+		)
+		(pin "3"
+			(uuid "886a172d-4c39-4fd6-a279-6b9a38e70d08")
+		)
+		(pin "1"
+			(uuid "e39d45d5-3b03-4b6f-b685-cfcaf5cf7792")
+		)
+		(instances
+			(project ""
+				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 49.53)
+		(size 62.23 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "250bc221-e977-4f2d-bacf-1ecb37c744d8")
+		(property "Sheetname" "SPA IGBT Driver Board 2"
+			(at 204.47 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPA_Driver_Board.kicad_sch"
+			(at 204.47 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Coil{slash}Charge +{slash}-" input
+			(at 266.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee4b6e51-1800-4a78-a667-58c90f1e80db")
+		)
+		(pin "Coil{slash}Charge -{slash}+" input
+			(at 266.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67ab2c5f-ba43-445d-9432-7e3d06464f38")
+		)
+		(pin "GND connection from Fault Board" input
+			(at 204.47 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e89ea79d-1283-46a0-baac-cf0052439c0c")
+		)
+		(pin "OUT connection to Fault Board" input
+			(at 204.47 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33604149-a0d7-47e8-a903-ff61e999aeef")
+		)
+		(pin "+5V connection from Fault Board" input
+			(at 204.47 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92c815c6-ab4c-4f9c-94fb-054327600812")
+		)
+		(pin "Fault Board AC Source Connection 1" input
+			(at 204.47 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a87b752-ffbf-4d39-98a4-8378aacdc8a7")
+		)
+		(pin "Fault Board AC Source Connection 2" input
+			(at 204.47 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "068460fb-9299-4644-bcea-5c3cee08876e")
+		)
+		(instances
+			(project "SPA_Complete"
+				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 121.92)
+		(size 74.93 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52fdbba2-94db-4a94-8696-8dcf0231fb11")
+		(property "Sheetname" "SPA Fault Board"
+			(at 54.61 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../SPA_Fault_Board/SPA_Fault_Board.kicad_sch"
+			(at 54.61 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT connection from Driver Board 4" input
+			(at 129.54 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef81051e-918b-46a7-b18a-9f975b85c7e1")
+		)
+		(pin "OUT connection from Driver Board 1" input
+			(at 129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b43232b-09a1-4820-abed-78bedd5eae68")
+		)
+		(pin "OUT connection from Driver Board 2" input
+			(at 129.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e701177-fbbe-4efd-b5f3-14d741271235")
+		)
+		(pin "OUT connection from Driver Board 3" input
+			(at 129.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b03dca02-d74c-4afe-aa94-63b8d9f75ff1")
+		)
+		(pin "GND connection to Driver Board" input
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60a08f51-74de-4f70-8dd0-e219c7208429")
+		)
+		(pin "+5V connection to Driver Board" input
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6514bbcf-e212-4620-9e31-c64ba1e3339a")
+		)
+		(pin "AC Source connection 2" input
+			(at 54.61 168.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "175bc1e4-e6dc-4dce-921a-4b7730facf8e")
+		)
+		(pin "AC out 2" input
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2629ef99-75da-4177-930e-7f18d3739236")
+		)
+		(pin "AC Source connection 1" input
+			(at 54.61 166.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09b6207f-ef67-43cc-93bb-891e423d38b2")
+		)
+		(pin "AC out 1" input
+			(at 129.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92eb568a-7d0f-47d9-bdca-9fd3b3bab49b")
+		)
+		(instances
+			(project "SPA_Complete"
+				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 83.82)
+		(size 62.23 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "767be1c8-784a-418e-b12c-c60aef8f12e7")
+		(property "Sheetname" "SPA IGBT Driver Board 3"
+			(at 204.47 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPA_Driver_Board.kicad_sch"
+			(at 204.47 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Coil{slash}Charge +{slash}-" input
+			(at 266.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed7c335a-5f7e-4a16-bda1-d48822e17890")
+		)
+		(pin "Coil{slash}Charge -{slash}+" input
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23c527dd-4635-48d5-b8e1-c804d8f09b4a")
+		)
+		(pin "GND connection from Fault Board" input
+			(at 204.47 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa3c33f9-9654-4bd9-8e00-a6c4f62df082")
+		)
+		(pin "OUT connection to Fault Board" input
+			(at 204.47 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f415b77-537a-42d8-9858-e27b44b3a792")
+		)
+		(pin "+5V connection from Fault Board" input
+			(at 204.47 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b76f399-a20e-44d8-aec9-a56ea9f0e024")
+		)
+		(pin "Fault Board AC Source Connection 1" input
+			(at 204.47 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32555281-f134-48d9-ac20-6f5affbda59e")
+		)
+		(pin "Fault Board AC Source Connection 2" input
+			(at 204.47 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9dcbecbf-f490-4f62-ba4d-a6e4a77460b5")
+		)
+		(instances
+			(project "SPA_Complete"
+				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 118.11)
+		(size 62.23 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ea4da3b-8f47-48ce-bc2a-a782e10c9561")
+		(property "Sheetname" "SPA IGBT Driver Board 4"
+			(at 204.47 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPA_Driver_Board.kicad_sch"
+			(at 204.47 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Coil{slash}Charge +{slash}-" input
+			(at 266.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9aca7c79-8578-446e-b624-17f99c8ca88b")
+		)
+		(pin "Coil{slash}Charge -{slash}+" input
+			(at 266.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d667d86a-d92c-4d6c-a08b-9acd2c7df22a")
+		)
+		(pin "GND connection from Fault Board" input
+			(at 204.47 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1dc3959c-e779-48a7-a3c7-bb1113ce7696")
+		)
+		(pin "OUT connection to Fault Board" input
+			(at 204.47 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6216d515-6a09-4328-b451-de3144b672b2")
+		)
+		(pin "+5V connection from Fault Board" input
+			(at 204.47 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fed40f8c-fa1c-47e0-8005-1f401e0e2e7d")
+		)
+		(pin "Fault Board AC Source Connection 1" input
+			(at 204.47 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a0a3fd2-5bd4-4f27-aa98-4a0b0410a124")
+		)
+		(pin "Fault Board AC Source Connection 2" input
+			(at 204.47 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e05b5e25-e2ca-4edc-b6dc-246e534fbe80")
+		)
+		(instances
+			(project "SPA_Complete"
+				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 16.51)
+		(size 62.23 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9310cbae-bd07-467c-a62f-e12ea28390e8")
+		(property "Sheetname" "SPA IGBT Driver Board 1"
+			(at 204.47 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPA_Driver_Board.kicad_sch"
+			(at 204.47 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Coil{slash}Charge +{slash}-" input
+			(at 266.7 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "113c2ae7-a6c6-4bba-a617-8408470af58f")
+		)
+		(pin "Coil{slash}Charge -{slash}+" input
+			(at 266.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ba39815-9cf5-4180-8df7-fe68b3107930")
+		)
+		(pin "GND connection from Fault Board" input
+			(at 204.47 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d431f495-2089-4dcd-98df-00802b8c61a5")
+		)
+		(pin "OUT connection to Fault Board" input
+			(at 204.47 20.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93b9a55c-7381-46aa-8ae5-d8ac007c9fa5")
+		)
+		(pin "+5V connection from Fault Board" input
+			(at 204.47 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38396acf-7eee-4ded-bee0-89d0a704af6f")
+		)
+		(pin "Fault Board AC Source Connection 1" input
+			(at 204.47 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7362793a-23ea-4359-b963-2bf0578f232e")
+		)
+		(pin "Fault Board AC Source Connection 2" input
+			(at 204.47 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca7b18ba-7679-4523-922b-0ccee5209680")
+		)
+		(instances
+			(project "SPA_Complete"
+				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
