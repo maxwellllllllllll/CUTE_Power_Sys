@@ -511,12 +511,12 @@
       "SPA Fault Board"
     ],
     [
-      "250bc221-e977-4f2d-bacf-1ecb37c744d8",
-      "SPA IGBT Driver Board 2"
-    ],
-    [
       "9310cbae-bd07-467c-a62f-e12ea28390e8",
       "SPA IGBT Driver Board 1"
+    ],
+    [
+      "250bc221-e977-4f2d-bacf-1ecb37c744d8",
+      "SPA IGBT Driver Board 2"
     ],
     [
       "767be1c8-784a-418e-b12c-c60aef8f12e7",

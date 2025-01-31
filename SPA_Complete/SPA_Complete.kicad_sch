@@ -638,16 +638,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 130.81) (xy 266.7 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a49997-5b0e-4752-bff8-efbaa2c22609")
-	)
-	(wire
-		(pts
 			(xy 45.72 162.56) (xy 45.72 166.37)
 		)
 		(stroke
@@ -665,16 +655,6 @@
 			(type default)
 		)
 		(uuid "1536cf4e-df25-4c35-831c-a926a540a005")
-	)
-	(wire
-		(pts
-			(xy 269.24 120.65) (xy 269.24 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17689d24-28ec-4c8b-98fe-672e394c86bb")
 	)
 	(wire
 		(pts
@@ -768,16 +748,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 86.36) (xy 269.24 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c70df8-87e5-4a57-ae87-4cfbd05774f0")
-	)
-	(wire
-		(pts
 			(xy 172.72 130.81) (xy 129.54 130.81)
 		)
 		(stroke
@@ -785,16 +755,6 @@
 			(type default)
 		)
 		(uuid "3fc03ac5-11b0-439b-9cec-2ac2a17eda31")
-	)
-	(wire
-		(pts
-			(xy 266.7 120.65) (xy 269.24 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4070ee09-85c2-489a-ab86-5c692b6b91ec")
 	)
 	(wire
 		(pts
@@ -888,26 +848,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 29.21) (xy 266.7 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c172d71-8625-4a53-aeeb-7842e3e4e4c3")
-	)
-	(wire
-		(pts
-			(xy 269.24 96.52) (xy 269.24 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6387cbaa-c04f-4515-b4e1-286060dde38f")
-	)
-	(wire
-		(pts
 			(xy 129.54 156.21) (xy 162.56 156.21)
 		)
 		(stroke
@@ -918,16 +858,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 52.07) (xy 269.24 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea86252-80f1-4278-898c-cffd79dc1c9e")
-	)
-	(wire
-		(pts
 			(xy 165.1 138.43) (xy 165.1 104.14)
 		)
 		(stroke
@@ -935,26 +865,6 @@
 			(type default)
 		)
 		(uuid "6f235c35-188d-4745-a8ea-f186002e3651")
-	)
-	(wire
-		(pts
-			(xy 269.24 62.23) (xy 269.24 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fb027ff-5722-40cd-aab2-dfbb92f007b5")
-	)
-	(wire
-		(pts
-			(xy 269.24 96.52) (xy 266.7 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74c5d0d1-436d-4cf0-8b33-86afe80e86cd")
 	)
 	(wire
 		(pts
@@ -1015,26 +925,6 @@
 			(type default)
 		)
 		(uuid "80139d54-cb9b-49a1-99ff-fdafbcac015a")
-	)
-	(wire
-		(pts
-			(xy 269.24 130.81) (xy 269.24 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "804a52cc-ea36-4dc4-bbfc-5da76e3dc822")
-	)
-	(wire
-		(pts
-			(xy 269.24 29.21) (xy 269.24 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828948d3-bf22-4aa7-b1b3-725279146233")
 	)
 	(wire
 		(pts
@@ -1138,36 +1028,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 62.23) (xy 266.7 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb90b6a7-28e5-439d-8181-b574db366f18")
-	)
-	(wire
-		(pts
-			(xy 266.7 86.36) (xy 269.24 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe9a21a-1830-4b03-b609-793a1dfe72d6")
-	)
-	(wire
-		(pts
-			(xy 269.24 19.05) (xy 269.24 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca3cad3-c22b-4dfd-a1f9-e9698bb9b060")
-	)
-	(wire
-		(pts
 			(xy 204.47 29.21) (xy 172.72 29.21)
 		)
 		(stroke
@@ -1175,16 +1035,6 @@
 			(type default)
 		)
 		(uuid "c53d29f4-e78f-4c78-8dba-cf5de9139896")
-	)
-	(wire
-		(pts
-			(xy 269.24 52.07) (xy 269.24 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c996d817-5e99-43d3-bd52-1014c3bdd8cc")
 	)
 	(wire
 		(pts
@@ -1205,16 +1055,6 @@
 			(type default)
 		)
 		(uuid "cf969857-178f-4848-8b41-638512fd759e")
-	)
-	(wire
-		(pts
-			(xy 266.7 19.05) (xy 269.24 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d853ccb1-26c0-4451-9410-39c071b872a1")
 	)
 	(wire
 		(pts
@@ -1663,7 +1503,7 @@
 		(instances
 			(project "SPA_Complete"
 				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -2125,7 +1965,7 @@
 		(instances
 			(project "SPA_Complete"
 				(path "/eadbdca0-dd18-45e2-be8c-db62a6dcf7de"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
