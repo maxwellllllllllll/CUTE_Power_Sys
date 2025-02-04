@@ -388,8 +388,76 @@
       "Root"
     ],
     [
-      "2e5fdc29-9987-4bb8-9680-bc8369be935d",
+      "b111d471-3bf5-464d-8502-0d5689b200c0",
+      "Blue Cap Bank"
+    ],
+    [
+      "5c7ab6b3-639e-4e07-a59d-354cda575a23",
       "Capacitor Tray"
+    ],
+    [
+      "8f3a5da0-0d78-4388-a7a9-a542fa915c0f",
+      "Capacitor Tray1"
+    ],
+    [
+      "e53cfd37-5a29-4edb-8f7d-5cba359f800c",
+      "Capacitor Tray2"
+    ],
+    [
+      "8433d735-d940-4939-ab3d-a6e70c7fd27c",
+      "Capacitor Tray3"
+    ],
+    [
+      "2d835a8b-f829-408e-a8cb-02bde8e78b99",
+      "Capacitor Tray4"
+    ],
+    [
+      "2c6d7c36-f1a6-4be0-972d-eab6307d25ff",
+      "Capacitor Tray5"
+    ],
+    [
+      "bf36e7d1-db2a-437b-a08e-6803149b1847",
+      "Capacitor Tray6"
+    ],
+    [
+      "50ab5c32-dda1-4d57-861f-139531d79ea7",
+      "Capacitor Tray7"
+    ],
+    [
+      "7942c146-4679-4596-a9fe-3d68d081d33e",
+      "Capacitor Tray8"
+    ],
+    [
+      "7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e",
+      "Capacitor Tray9"
+    ],
+    [
+      "d54fb2e5-be0a-4a92-8e1a-4514ac5df6be",
+      "Capacitor Tray10"
+    ],
+    [
+      "f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b",
+      "Capacitor Tray11"
+    ],
+    [
+      "ceb2bd3f-3c67-47f3-8f3a-18b713f13589",
+      "Capacitor Tray12"
+    ],
+    [
+      "2fbbfa8e-f99a-4d04-a316-a6c9c811bba1",
+      "Capacitor Tray13"
+    ],
+    [
+      "85f436ce-d444-4813-945c-ee61dc72ca39",
+      "Capacitor Tray14"
+    ],
+    [
+      "f6e7d861-d443-406c-abc6-797bb857a486",
+      "Capacitor Tray15"
+    ],
+    [
+      "3e32ad79-db1b-4692-a20b-90728c0d64a9",
+      "Charge_Dump Relay"
     ]
   ],
   "text_variables": {}

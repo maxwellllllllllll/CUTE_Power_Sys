@@ -1,0 +1,139 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c716675b-d754-4b87-99eb-660dfcc257fb")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 54.61 85.09)
+		(size 26.67 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e32ad79-db1b-4692-a20b-90728c0d64a9")
+		(property "Sheetname" "Charge_Dump Relay"
+			(at 54.61 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charge_dump_relay.kicad_sch"
+			(at 54.61 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 43.18)
+		(size 17.78 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b111d471-3bf5-464d-8502-0d5689b200c0")
+		(property "Sheetname" "Blue Cap Bank"
+			(at 58.42 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "blue_bank.kicad_sch"
+			(at 58.42 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "- Dump" input
+			(at 76.2 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b51feadd-01b8-4ebf-9c8e-f7d4399474cc")
+		)
+		(pin "- Charging" input
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5eee37dc-8976-4f2d-bada-f62f18983a4f")
+		)
+		(pin "+ Charging" input
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "386f45fb-1476-4094-a01d-3bbaef786c75")
+		)
+		(pin "+ Dump" input
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b17e5f4-16d3-47c9-a8c4-b8e6bc54cbea")
+		)
+		(pin "Relay GND" input
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5824fdbe-7ec4-4b5f-a12c-1a0a776c417b")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

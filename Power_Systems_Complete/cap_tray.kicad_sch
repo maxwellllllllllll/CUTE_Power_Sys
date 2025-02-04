@@ -1,0 +1,3309 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "738120e2-4aa0-4649-b28b-16fe74f116ed")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 93.98 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4e78a37-eb5d-4cc5-b531-1a5060ef4a1a")
+	)
+	(bus_entry
+		(at 54.61 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0012455f-a514-41e7-a174-9a5225c1c419")
+	)
+	(bus_entry
+		(at 73.66 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e959be-debe-4ef7-bdc2-13a9dd6a2040")
+	)
+	(bus_entry
+		(at 115.57 120.65)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13157985-39ae-4056-99e8-7255e4c2bd2d")
+	)
+	(bus_entry
+		(at 91.44 135.89)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1b279f-cc25-4e0c-9b0e-68037715eac6")
+	)
+	(bus_entry
+		(at 91.44 110.49)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0f31f3-003f-40c4-b973-6ef83ec8af4a")
+	)
+	(bus_entry
+		(at 115.57 96.52)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d96d79c-6a6c-4705-87aa-cfdeb42063e6")
+	)
+	(bus_entry
+		(at 93.98 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c43420-eda7-4d79-94f8-f7baf57f157f")
+	)
+	(bus_entry
+		(at 71.12 99.06)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca93589-63b0-4f5f-b63c-0484d4a40406")
+	)
+	(bus_entry
+		(at 73.66 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445bbe22-a76a-438c-8b00-04389bba5f96")
+	)
+	(bus_entry
+		(at 71.12 110.49)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf9178c-6fc7-4f54-b19b-2bc792666972")
+	)
+	(bus_entry
+		(at 71.12 148.59)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537171ad-938f-45e9-be82-fc0e5fbdda81")
+	)
+	(bus_entry
+		(at 54.61 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61064672-46c7-49a9-af92-b1268a31faa6")
+	)
+	(bus_entry
+		(at 54.61 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a4ca48-4b36-4395-98a4-847b04309cc8")
+	)
+	(bus_entry
+		(at 93.98 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea79773-24bd-410f-a852-b3bd6c77dc63")
+	)
+	(bus_entry
+		(at 54.61 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3c1206-4b97-431c-a7cb-48b0dedd2130")
+	)
+	(bus_entry
+		(at 71.12 135.89)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713b4c44-d642-4f22-856e-47deff2e0da8")
+	)
+	(bus_entry
+		(at 73.66 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770db58d-a45d-4336-849f-51e73c07332e")
+	)
+	(bus_entry
+		(at 73.66 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879b9110-4c7a-4a9b-b76a-75d231ea4d80")
+	)
+	(bus_entry
+		(at 54.61 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb52b2c-f508-4409-9685-0715937672e3")
+	)
+	(bus_entry
+		(at 54.61 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9105d567-2a8e-46a8-95fe-3573b049e03b")
+	)
+	(bus_entry
+		(at 73.66 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937fc6d6-2d28-44c0-a9c3-d1370331189c")
+	)
+	(bus_entry
+		(at 93.98 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9974d5c3-7870-4c70-a16a-72cd666fd610")
+	)
+	(bus_entry
+		(at 71.12 123.19)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4754ee-9741-42af-b8a1-37c83a6f559f")
+	)
+	(bus_entry
+		(at 115.57 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00767d1-d704-48d3-afaa-59c0b45e6d60")
+	)
+	(bus_entry
+		(at 91.44 123.19)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a723015f-217a-4165-845a-328215b74fe3")
+	)
+	(bus_entry
+		(at 71.12 86.36)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3523ffe-d47e-4011-bb59-f544cf17b01d")
+	)
+	(bus_entry
+		(at 91.44 99.06)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d55fae-0f10-41db-b435-dc24adfa5903")
+	)
+	(bus_entry
+		(at 115.57 107.95)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4409253-efe3-40de-9a9c-ce280ae68c5d")
+	)
+	(bus_entry
+		(at 93.98 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c543af3c-1dd2-49d2-8062-3516413ff728")
+	)
+	(bus_entry
+		(at 73.66 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a99f56-4db3-44ca-ba32-0c877d151423")
+	)
+	(bus_entry
+		(at 91.44 86.36)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61f85e3-a162-466f-a848-48e20910e76f")
+	)
+	(bus_entry
+		(at 91.44 148.59)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaad0c7f-2c07-4e79-94ee-4dc209f79630")
+	)
+	(bus_entry
+		(at 115.57 133.35)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd2df88-f284-4e7a-9869-79169d3ee590")
+	)
+	(bus_entry
+		(at 93.98 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febc4acf-d090-4b74-9031-b22f0e3f6110")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 59.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02eb2e3f-b829-4efc-b063-884ff4454ca2")
+	)
+	(wire
+		(pts
+			(xy 57.15 110.49) (xy 59.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a04729d-3f90-4728-81fd-6ed9a45c3217")
+	)
+	(wire
+		(pts
+			(xy 96.52 135.89) (xy 101.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6cdec7-0c36-4814-923a-104af2d2bbfb")
+	)
+	(bus
+		(pts
+			(xy 93.98 74.93) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131e8057-24dd-4ede-a0b2-347ef80e5a19")
+	)
+	(wire
+		(pts
+			(xy 109.22 135.89) (xy 113.03 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15520928-15a8-4608-ad71-69ef8b5e7c2c")
+	)
+	(bus
+		(pts
+			(xy 93.98 120.65) (xy 93.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ce3d1a-c5f4-4c1a-a0fa-55413b7ad85c")
+	)
+	(bus
+		(pts
+			(xy 73.66 133.35) (xy 73.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d55853-853d-45ee-a76a-22aa06762b69")
+	)
+	(wire
+		(pts
+			(xy 87.63 148.59) (xy 91.44 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0bc474-0992-48ea-b80d-5dce9a0ceb6c")
+	)
+	(wire
+		(pts
+			(xy 96.52 123.19) (xy 101.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f185314-16bb-4b5c-a4b6-5f233a6c176c")
+	)
+	(bus
+		(pts
+			(xy 73.66 146.05) (xy 73.66 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb73f7e-2b1c-430f-ae22-844e3bc87586")
+	)
+	(wire
+		(pts
+			(xy 67.31 123.19) (xy 71.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2edbaeea-5930-4e16-a1d1-07aee8e18cf8")
+	)
+	(bus
+		(pts
+			(xy 115.57 133.35) (xy 115.57 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310d13bd-bff8-44d3-bc80-34f7f0514c32")
+	)
+	(wire
+		(pts
+			(xy 57.15 135.89) (xy 59.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3270da98-1559-493e-b613-846a39b6c3a9")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ca01ba-ca97-49c1-aad0-ec71991e977a")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 80.01 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3596871a-9d27-4f8b-aff7-9037907d9e44")
+	)
+	(bus
+		(pts
+			(xy 93.98 69.85) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4d3542-285b-4bd5-a497-6d16b81fa442")
+	)
+	(wire
+		(pts
+			(xy 109.22 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7ff189-97d5-4b4d-8ba0-d5137e1853cc")
+	)
+	(bus
+		(pts
+			(xy 54.61 133.35) (xy 54.61 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4192fec2-cf12-41fe-8ecb-bf18e6aa9783")
+	)
+	(bus
+		(pts
+			(xy 93.98 83.82) (xy 93.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0fa065-eeb0-4dc5-8be1-f90689954e34")
+	)
+	(wire
+		(pts
+			(xy 57.15 148.59) (xy 59.69 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc9da67-c265-43fc-a33d-cf7416285219")
+	)
+	(bus
+		(pts
+			(xy 54.61 96.52) (xy 54.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfbfbfd-328d-4386-b7a5-7a6d78fc4dd9")
+	)
+	(bus
+		(pts
+			(xy 93.98 96.52) (xy 93.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635b6935-a5d1-48fb-9d4a-9e44f7ab672e")
+	)
+	(wire
+		(pts
+			(xy 109.22 123.19) (xy 113.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6439921d-a755-4e9c-aab5-f4e2fad96dc8")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b2f387-fb99-4fa3-8beb-23cf6b78964b")
+	)
+	(bus
+		(pts
+			(xy 115.57 96.52) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d54c40d-2b5c-42ef-b109-8165f065c27a")
+	)
+	(bus
+		(pts
+			(xy 54.61 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744fc24b-d7df-4ad3-ba97-6cec175e1d29")
+	)
+	(bus
+		(pts
+			(xy 93.98 107.95) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7658c486-e695-48f2-adb2-2a4586f1f5f2")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c4796b-1991-4213-83f3-d2a1b7d861d8")
+	)
+	(bus
+		(pts
+			(xy 73.66 96.52) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78bc7f82-ce80-45f3-889d-4c3b14c46d1d")
+	)
+	(bus
+		(pts
+			(xy 54.61 107.95) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b16fad9-72d3-4bff-b424-06ba9e688e94")
+	)
+	(wire
+		(pts
+			(xy 87.63 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be15b89-9e9f-472c-adbc-457608c612c6")
+	)
+	(wire
+		(pts
+			(xy 96.52 110.49) (xy 101.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c217b87-bc6e-4a58-bd01-6d0d9ab2f876")
+	)
+	(wire
+		(pts
+			(xy 67.31 135.89) (xy 71.12 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3815e9-f394-491d-9ef0-1569c1c27692")
+	)
+	(bus
+		(pts
+			(xy 54.61 133.35) (xy 54.61 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd7585e-3e56-49ea-81a4-1df1297332b5")
+	)
+	(wire
+		(pts
+			(xy 76.2 99.06) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a639cd3-8cf1-4ba4-b74b-f8942efc5de9")
+	)
+	(wire
+		(pts
+			(xy 76.2 110.49) (xy 80.01 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d68377-c4a0-4ed0-be5b-3015dd53757d")
+	)
+	(bus
+		(pts
+			(xy 115.57 120.65) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e98a7e-ec25-430f-b448-50c36b6754c5")
+	)
+	(wire
+		(pts
+			(xy 57.15 123.19) (xy 59.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fe2353-81f6-4bad-a7d8-a15453f530ed")
+	)
+	(bus
+		(pts
+			(xy 93.98 133.35) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94336dfb-17fe-4351-9020-9d3a0dc89df1")
+	)
+	(bus
+		(pts
+			(xy 115.57 156.21) (xy 73.66 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95089be2-f9f5-423e-b422-39f3bc9bbfde")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1df876-0373-4044-9a4f-16a4a1a24e3b")
+	)
+	(bus
+		(pts
+			(xy 115.57 69.85) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e354417-5476-4cd7-987d-a32ea871c5f8")
+	)
+	(wire
+		(pts
+			(xy 76.2 135.89) (xy 80.01 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7248d9f-3553-47e3-9d54-bd5bd1b905ad")
+	)
+	(bus
+		(pts
+			(xy 54.61 74.93) (xy 54.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7fbf04-e4d4-4a79-82e0-4bc7c104dacd")
+	)
+	(wire
+		(pts
+			(xy 67.31 110.49) (xy 71.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5d0f2b-28d4-46a2-bb1f-680467a6ef0d")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e95e72-bfd9-4a2b-8fe2-be0ae4342947")
+	)
+	(wire
+		(pts
+			(xy 57.15 86.36) (xy 59.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7927e4-b942-4736-b095-18d17628eb87")
+	)
+	(wire
+		(pts
+			(xy 67.31 99.06) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7c6f24-9f80-4c24-aec1-cf21d2a85b9a")
+	)
+	(wire
+		(pts
+			(xy 67.31 148.59) (xy 71.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb52cfef-1184-4913-a1df-602d13dd586d")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd03b3b4-102c-4004-9bba-3e5a81a18cc4")
+	)
+	(wire
+		(pts
+			(xy 87.63 110.49) (xy 91.44 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb91ab99-354c-4c2e-b7fc-4ce25faf316d")
+	)
+	(wire
+		(pts
+			(xy 76.2 123.19) (xy 80.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc353c8b-c2a1-4ff0-a76a-5b92b6a78ba6")
+	)
+	(wire
+		(pts
+			(xy 87.63 135.89) (xy 91.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffadf8e-5051-4d12-92ee-9c5f6a046d85")
+	)
+	(bus
+		(pts
+			(xy 115.57 83.82) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6162878-08e4-4eb4-a8b0-888b72809307")
+	)
+	(bus
+		(pts
+			(xy 54.61 120.65) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2aae340-70cd-46f7-9f6b-95645db6757d")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53a9012-e579-4804-8ec0-8c6437dbb36b")
+	)
+	(wire
+		(pts
+			(xy 76.2 148.59) (xy 80.01 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7358e59-1450-4c6c-b175-5e4781ce330b")
+	)
+	(bus
+		(pts
+			(xy 73.66 120.65) (xy 73.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86b5cff-7583-4b1b-bd8f-6734593ef83c")
+	)
+	(bus
+		(pts
+			(xy 115.57 107.95) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f824d1a2-7c15-44a3-a485-d15e6cf4a7e0")
+	)
+	(bus
+		(pts
+			(xy 73.66 83.82) (xy 73.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa78456f-7d22-4580-a838-9a5f69daa0c6")
+	)
+	(bus
+		(pts
+			(xy 73.66 107.95) (xy 73.66 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc34ffa-2d3c-405e-acef-44fa24cc14f5")
+	)
+	(text "Top Plate"
+		(exclude_from_sim no)
+		(at 100.076 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0bfeacae-dd4d-4480-b857-6362fbc73c2f")
+	)
+	(text "Bottom Plate\n"
+		(exclude_from_sim no)
+		(at 123.444 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48475325-6dc1-4f39-9268-c860835dfd17")
+	)
+	(hierarchical_label "+"
+		(shape input)
+		(at 93.98 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c38c8e1-ddef-479e-acfd-e99aacb48135")
+	)
+	(hierarchical_label "-"
+		(shape input)
+		(at 115.57 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ba9228d-20b1-4562-b7be-312de5839c66")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 105.41 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8a7783-bb1a-4352-b905-aa377c6d00f9")
+		(property "Reference" "C?"
+			(at 104.521 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 104.521 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "204ae121-7634-49e9-b368-1e7cab8e1fc0")
+		)
+		(pin "1"
+			(uuid "faf20d11-1d57-4b5e-b235-c32edec942f2")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 83.82 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33b40ce4-c421-423b-90aa-590f67151d7e")
+		(property "Reference" "C?"
+			(at 84.709 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 84.709 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 149.5552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 83.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8754feab-820b-4566-b448-47991be5640d")
+		)
+		(pin "1"
+			(uuid "eba39c6d-7aba-4579-8a32-233aa6722d88")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 83.82 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "468ab33e-18e1-4897-8cd8-b6942f069d67")
+		(property "Reference" "C?"
+			(at 84.709 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 84.709 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 100.0252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8133d49-a2db-44a2-92b2-6c2d82e62f35")
+		)
+		(pin "1"
+			(uuid "6a1f4ffe-97ae-421c-84aa-225ed3d7c307")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 63.5 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "587fcf29-2751-474e-b114-a96db1664e96")
+		(property "Reference" "C?"
+			(at 62.611 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 62.611 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 147.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cb54f62-f728-4880-bfec-e7fa6bd265ab")
+		)
+		(pin "1"
+			(uuid "c5bec2ff-7196-4f72-91be-e5fb063d323b")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 105.41 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c168481-205b-46c5-b84a-f808f0ff2a51")
+		(property "Reference" "C?"
+			(at 104.521 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 104.521 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 134.9248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 105.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f31b6747-3de2-4041-915a-780d7955e14a")
+		)
+		(pin "1"
+			(uuid "fe49e641-fa1a-44ff-aa91-3eacebd68cd4")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 63.5 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68312052-098d-49a2-b1c4-9897719976d5")
+		(property "Reference" "C?"
+			(at 62.611 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1500uF"
+			(at 62.611 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9707a06-1257-44e3-8dc4-0928a31ced56")
+		)
+		(pin "1"
+			(uuid "7a85306b-5383-4f47-a4e2-24b8909c7d4e")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 105.41 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ddd1b0c-0d71-4d80-bf38-dfbf8e486642")
+		(property "Reference" "C?"
+			(at 104.521 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 104.521 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 109.5248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1e6d286-29d2-4d37-859c-94f012304b27")
+		)
+		(pin "1"
+			(uuid "d64a278a-2459-4f62-84bf-347edf6c96f2")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 83.82 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83be2b7b-dda1-43dd-a713-4c2a891e7d40")
+		(property "Reference" "C?"
+			(at 84.709 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 84.709 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 111.4552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bc48d5b-a486-4958-a9e7-bb4448a6af1e")
+		)
+		(pin "1"
+			(uuid "38e800f6-eb62-4bec-b997-7c3c508f4b15")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 63.5 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac0a959a-006b-474b-ad62-86c3c1c40b94")
+		(property "Reference" "C?"
+			(at 62.611 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 62.611 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 109.5248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2917f685-7f29-47c6-9be1-7b82a3ae04ae")
+		)
+		(pin "1"
+			(uuid "5502d37e-4650-4984-ade9-574cde3a26cb")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 105.41 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1bd34ae-4756-462c-a91e-cf6fff27996b")
+		(property "Reference" "C?"
+			(at 104.521 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 104.521 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 98.0948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c7e3096-8cc9-416b-96b9-869f698737c5")
+		)
+		(pin "1"
+			(uuid "a6bd28a7-ee86-47ac-bf3b-bf75952c366a")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 63.5 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5ab91e5-7fc7-4f14-aec8-fd4212ab4bde")
+		(property "Reference" "C?"
+			(at 62.611 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 62.611 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 134.9248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad915411-927a-4ed0-92a4-9c81f6bab527")
+		)
+		(pin "1"
+			(uuid "e236e267-6ecd-41af-bd7e-3734b4bcf02b")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 83.82 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8fd5931-5150-4730-881c-874b41454532")
+		(property "Reference" "C?"
+			(at 84.709 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 84.709 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 87.3252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9e4b096-6a73-4ea2-b6e9-29b4057945e6")
+		)
+		(pin "1"
+			(uuid "2deabaf8-daec-4488-ad92-c876990c4fa9")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 63.5 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf4e96f9-28d9-46b7-81ff-3ba59e16ab1b")
+		(property "Reference" "C?"
+			(at 62.611 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 62.611 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fe0fb46-a267-4eb0-bb61-e99aa7617f43")
+		)
+		(pin "1"
+			(uuid "c85f0384-8930-4876-82db-6c165fb58a70")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 83.82 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c1edba-195b-421e-9596-edcfb3686848")
+		(property "Reference" "C?"
+			(at 84.709 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 84.709 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 124.1552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b221e51c-a0f9-4ad0-9a56-ec398b9db011")
+		)
+		(pin "1"
+			(uuid "603992a4-f03e-4641-be87-dd37b81507f4")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 83.82 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e735751a-a698-438b-ab6a-407f9098735b")
+		(property "Reference" "C?"
+			(at 84.709 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 84.709 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 136.8552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e549d8b-a192-4002-81bb-39a9ab14e497")
+		)
+		(pin "1"
+			(uuid "af9e15cd-3a14-4bbe-8a16-3770d2eb5f37")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 63.5 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9996484-4ac6-41bc-92e6-80b060bf342b")
+		(property "Reference" "C?"
+			(at 62.611 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 62.611 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 98.0948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e469815b-3fa0-43bf-9d3f-6fd3d8366c22")
+		)
+		(pin "1"
+			(uuid "a5d9c79c-5ac8-40b9-859f-23e0f0f036ce")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 105.41 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9ade071-84cc-415b-9c3f-deab5d89f414")
+		(property "Reference" "C?"
+			(at 104.521 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 104.521 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f64145c1-2629-47a6-94cf-7962ea611eaa")
+		)
+		(pin "1"
+			(uuid "c7d3c5ff-91e4-4db6-8702-46b5e14ac366")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2c6d7c36-f1a6-4be0-972d-eab6307d25ff"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2d835a8b-f829-408e-a8cb-02bde8e78b99"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/2fbbfa8e-f99a-4d04-a316-a6c9c811bba1"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/50ab5c32-dda1-4d57-861f-139531d79ea7"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/5c7ab6b3-639e-4e07-a59d-354cda575a23"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7942c146-4679-4596-a9fe-3d68d081d33e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8433d735-d940-4939-ab3d-a6e70c7fd27c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/85f436ce-d444-4813-945c-ee61dc72ca39"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/8f3a5da0-0d78-4388-a7a9-a542fa915c0f"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/bf36e7d1-db2a-437b-a08e-6803149b1847"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/ceb2bd3f-3c67-47f3-8f3a-18b713f13589"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/d54fb2e5-be0a-4a92-8e1a-4514ac5df6be"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/e53cfd37-5a29-4edb-8f7d-5cba359f800c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f6e7d861-d443-406c-abc6-797bb857a486"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b111d471-3bf5-464d-8502-0d5689b200c0/f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
