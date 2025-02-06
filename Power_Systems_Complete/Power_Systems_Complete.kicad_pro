@@ -393,7 +393,7 @@
     ],
     [
       "5c7ab6b3-639e-4e07-a59d-354cda575a23",
-      "Capacitor Tray"
+      "Capacitor Tray0"
     ],
     [
       "8f3a5da0-0d78-4388-a7a9-a542fa915c0f",
@@ -458,6 +458,170 @@
     [
       "3e32ad79-db1b-4692-a20b-90728c0d64a9",
       "Charge_Dump Relay"
+    ],
+    [
+      "4d88cbf5-95d2-4087-aa2f-caf80e068377",
+      "Red Cap Bank 3"
+    ],
+    [
+      "ae0a36aa-aca1-4168-bc8f-e21fddd2214f",
+      "Capacitor Tray16"
+    ],
+    [
+      "40db000c-790e-480a-91e2-462d1d9f66bd",
+      "Capacitor Tray17"
+    ],
+    [
+      "f2b456ad-7f72-492e-b830-c2e2b4da9f30",
+      "Capacitor Tray18"
+    ],
+    [
+      "094d7804-7f53-4ad8-abf7-5919756c171c",
+      "Capacitor Tray19"
+    ],
+    [
+      "578ddca2-d5d9-4efb-bca2-a40ab5e04226",
+      "Capacitor Tray20"
+    ],
+    [
+      "b056b65c-e212-40b8-9e3c-e928a05ab426",
+      "Capacitor Tray21"
+    ],
+    [
+      "e720952c-236f-4803-aacf-ebc545b64d73",
+      "Capacitor Tray22"
+    ],
+    [
+      "b46ca4ad-5994-45a6-bc85-b41a073c18e7",
+      "Capacitor Tray23"
+    ],
+    [
+      "c80faca0-26de-44b1-956e-3b6bdfce18f5",
+      "Capacitor Tray24"
+    ],
+    [
+      "5431488c-c5ac-4558-b777-4cc4dc7442b4",
+      "Capacitor Tray25"
+    ],
+    [
+      "3d301e50-32d0-493a-a8a4-0d2566f50ff8",
+      "Capacitor Tray26"
+    ],
+    [
+      "7d6002a1-896a-475c-915c-433ec7d74d1f",
+      "Capacitor Tray27"
+    ],
+    [
+      "6d174f48-2cb8-46bd-925c-6897426a4b2a",
+      "Capacitor Tray28"
+    ],
+    [
+      "6bb21286-7295-4ac6-9203-467c3e4433a9",
+      "Capacitor Tray29"
+    ],
+    [
+      "269352c0-c7a6-4f55-ab44-d1f65015d71f",
+      "Capacitor Tray30"
+    ],
+    [
+      "5c2fcb8a-04b9-4ef0-bfac-fd7fbe678673",
+      "Capacitor Tray31"
+    ],
+    [
+      "b4147529-4e80-441c-940f-bb59eeb52015",
+      "Small Red Cap Bank"
+    ],
+    [
+      "a36d6f24-8639-47fb-a269-5f799834ccae",
+      "Blue Cap Bank1"
+    ],
+    [
+      "8f3a5da0-0d78-4388-a7a9-a542fa915c0f",
+      "Capacitor Tray1"
+    ],
+    [
+      "5c7ab6b3-639e-4e07-a59d-354cda575a23",
+      "Capacitor Tray0"
+    ],
+    [
+      "2d835a8b-f829-408e-a8cb-02bde8e78b99",
+      "Capacitor Tray4"
+    ],
+    [
+      "e53cfd37-5a29-4edb-8f7d-5cba359f800c",
+      "Capacitor Tray2"
+    ],
+    [
+      "2c6d7c36-f1a6-4be0-972d-eab6307d25ff",
+      "Capacitor Tray5"
+    ],
+    [
+      "8433d735-d940-4939-ab3d-a6e70c7fd27c",
+      "Capacitor Tray3"
+    ],
+    [
+      "50ab5c32-dda1-4d57-861f-139531d79ea7",
+      "Capacitor Tray7"
+    ],
+    [
+      "7c112f3c-b2b4-4bd6-b4df-0132c62a1d3e",
+      "Capacitor Tray9"
+    ],
+    [
+      "f9ecb8f8-018c-4b89-b3e5-68a1bfb2158b",
+      "Capacitor Tray11"
+    ],
+    [
+      "d54fb2e5-be0a-4a92-8e1a-4514ac5df6be",
+      "Capacitor Tray10"
+    ],
+    [
+      "7942c146-4679-4596-a9fe-3d68d081d33e",
+      "Capacitor Tray8"
+    ],
+    [
+      "bf36e7d1-db2a-437b-a08e-6803149b1847",
+      "Capacitor Tray6"
+    ],
+    [
+      "f6e7d861-d443-406c-abc6-797bb857a486",
+      "Capacitor Tray15"
+    ],
+    [
+      "2fbbfa8e-f99a-4d04-a316-a6c9c811bba1",
+      "Capacitor Tray13"
+    ],
+    [
+      "85f436ce-d444-4813-945c-ee61dc72ca39",
+      "Capacitor Tray14"
+    ],
+    [
+      "ceb2bd3f-3c67-47f3-8f3a-18b713f13589",
+      "Capacitor Tray12"
+    ],
+    [
+      "debd28ed-d0de-4216-97a8-20490845916a",
+      "SPA"
+    ],
+    [
+      "90d6133a-13c7-4831-8588-8d9b527fecb8",
+      "SPA Fault Board"
+    ],
+    [
+      "9cb8d3d7-b997-40dd-a137-3292c32631cb",
+      "SPA IGBT Driver Board 1"
+    ],
+    [
+      "d90aff79-17b5-449b-8c13-44ad861487ac",
+      "SPA IGBT Driver Board 2"
+    ],
+    [
+      "5e241078-0f45-4121-995f-fa044bc4b280",
+      "SPA IGBT Driver Board 3"
+    ],
+    [
+      "3878d60c-5e97-414d-b8c4-2c641c4c0a8c",
+      "SPA IGBT Driver Board 4"
     ]
   ],
   "text_variables": {}

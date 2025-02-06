@@ -3,11 +3,352 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "c716675b-d754-4b87-99eb-660dfcc257fb")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
+	(junction
+		(at 160.02 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e7249a3-b38c-4dea-b5de-ac52a59b27c5")
+	)
+	(junction
+		(at 156.21 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ac905d3-9414-4d01-a150-649f27f976ed")
+	)
+	(junction
+		(at 154.94 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79f152ef-1aeb-4a41-bd25-7a99530683b9")
+	)
+	(junction
+		(at 157.48 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e45f932-d0e2-420c-af5f-998cccef19df")
+	)
+	(junction
+		(at 158.75 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee785754-17a0-4210-ab29-7bde88ef010b")
+	)
+	(wire
+		(pts
+			(xy 99.06 33.02) (xy 157.48 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7ceb06-6c18-4726-9251-e63e67513ac2")
+	)
+	(wire
+		(pts
+			(xy 105.41 46.99) (xy 124.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6f431b-6db5-4f04-a06d-46de859d428f")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0faa56fa-2726-44ea-81f8-519b465f7544")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 157.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187a079f-e634-4ba4-909c-1ed0da0a4ee3")
+	)
+	(wire
+		(pts
+			(xy 157.48 33.02) (xy 157.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c04cae-ede3-4634-965c-57355f56d044")
+	)
+	(wire
+		(pts
+			(xy 99.06 50.8) (xy 99.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275971ea-17f1-496a-8f39-e7c979648305")
+	)
+	(wire
+		(pts
+			(xy 152.4 52.07) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40794aee-3160-4f74-b17e-9416bf5274ac")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.3) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3f6389-e4b3-46da-826c-08e53103247d")
+	)
+	(wire
+		(pts
+			(xy 152.4 46.99) (xy 156.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c686d2b-deea-4fb2-8133-e15d467b7dfd")
+	)
+	(wire
+		(pts
+			(xy 158.75 52.07) (xy 198.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a46d51-3eeb-49c1-94cf-9e43bd9f49c4")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5701c345-bb3e-4a4f-a679-eec38e9a83d5")
+	)
+	(wire
+		(pts
+			(xy 157.48 49.53) (xy 198.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599ad854-1c89-414f-8c01-fd4f29ca3519")
+	)
+	(wire
+		(pts
+			(xy 158.75 111.76) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a15f535-1482-4ae1-bbde-e217f3013b4c")
+	)
+	(wire
+		(pts
+			(xy 152.4 54.61) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d39b1b5-239c-4ca0-8d05-bdfb55bb7f47")
+	)
+	(wire
+		(pts
+			(xy 154.94 44.45) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6801e70f-e4ab-4747-839b-630e1c387485")
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 105.41 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768ea89f-5d49-4a5d-a9e8-678930b7649c")
+	)
+	(wire
+		(pts
+			(xy 160.02 54.61) (xy 198.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807baeee-2615-4eeb-b7ea-2b54bad34f85")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 99.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47265a7-b6b7-465f-a678-9b874c8d354b")
+	)
+	(wire
+		(pts
+			(xy 76.2 48.26) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafd05b0-b45b-490f-bdfb-3dfb40d4f2e7")
+	)
+	(wire
+		(pts
+			(xy 156.21 46.99) (xy 198.12 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3c09ec-8e9a-4ea5-b1a1-2e0483f9a9e5")
+	)
+	(wire
+		(pts
+			(xy 156.21 106.68) (xy 156.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09ed09e-bede-4dba-94df-084141c84c4c")
+	)
+	(wire
+		(pts
+			(xy 152.4 44.45) (xy 154.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc17c112-1ec2-4750-b3c8-68591594d100")
+	)
+	(wire
+		(pts
+			(xy 124.46 44.45) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58ebd36-5aa3-48b6-8c10-33b43f9e3529")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 105.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95964d1-1df8-49ad-b748-a32351140d9f")
+	)
+	(wire
+		(pts
+			(xy 154.94 44.45) (xy 198.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db869a42-82e8-47b7-9dd4-183d79e66935")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 158.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a87c95-d2f2-4d54-878d-e05f996f7d78")
+	)
+	(wire
+		(pts
+			(xy 152.4 49.53) (xy 157.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb600347-3b04-4f46-b528-dc9cfed844ee")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5c1704-f886-4e51-be9b-3b448d57ca0e")
+	)
+	(wire
+		(pts
+			(xy 76.2 44.45) (xy 76.2 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede5e2be-9b9e-4e44-95fe-390036861ab7")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e23be6-4263-4cd1-8093-21a52f16bd10")
+	)
+	(text "NOTE: Each red cap bank is slightly different, but \nthey are all roughly equivalent to cap bank 3 which\nis included here as a placeholder for all of them.\n\nTODO: Update each red cap bank to reflect the unique parts of each one."
+		(exclude_from_sim no)
+		(at 15.494 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e74a13f-d622-4973-b02e-9f951fd11c38")
+	)
 	(sheet
-		(at 54.61 85.09)
-		(size 26.67 15.24)
+		(at 198.12 38.1)
+		(size 43.18 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +359,7 @@
 		)
 		(uuid "3e32ad79-db1b-4692-a20b-90728c0d64a9")
 		(property "Sheetname" "Charge_Dump Relay"
-			(at 54.61 84.3784 0)
+			(at 198.12 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,13 +368,133 @@
 			)
 		)
 		(property "Sheetfile" "charge_dump_relay.kicad_sch"
-			(at 54.61 100.9146 0)
+			(at 198.12 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "Charge +" input
+			(at 198.12 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9937c1c3-21fa-494a-aafd-53a090d8a9f7")
+		)
+		(pin "GND Out" input
+			(at 198.12 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17263bbc-e701-46c0-9028-b94ae4eb3401")
+		)
+		(pin "Charge -" input
+			(at 198.12 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19cd9802-300b-45d3-ba04-70a0cfb88e96")
+		)
+		(pin "Dump +" input
+			(at 198.12 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24db3598-f6ad-4bc5-bfe0-c0386637fa42")
+		)
+		(pin "Dump Trig +" input
+			(at 213.36 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ddd75b8-02d7-4256-9309-b7c7896f5faf")
+		)
+		(pin "Dump Trig -" input
+			(at 215.9 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8529bca5-9e23-442d-9e2f-8554fd744ca1")
+		)
+		(pin "Dump -" input
+			(at 198.12 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "333cd014-1167-4bad-a03b-4cbf938ea91a")
+		)
+		(pin "Charge Trig -" input
+			(at 220.98 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7311bffd-754d-4225-b7bc-c1a99363a1a9")
+		)
+		(pin "Charge Trig +" input
+			(at 218.44 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf911647-c748-4678-8b5b-f36331f24514")
+		)
+		(pin "Supply -" input
+			(at 241.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "edf533d1-0e01-44aa-990c-04d00d0ae26b")
+		)
+		(pin "Supply GND" input
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e23ca68-1123-43f7-a442-b0b30882b863")
+		)
+		(pin "Supply +" input
+			(at 241.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "13a052c0-4b90-40d1-aa0c-4afe7f2f234c")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -44,8 +505,504 @@
 		)
 	)
 	(sheet
-		(at 58.42 43.18)
-		(size 17.78 15.24)
+		(at 248.92 85.09)
+		(size 27.94 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d88cbf5-95d2-4087-aa2f-caf80e068377")
+		(property "Sheetname" "Red Cap Bank 3"
+			(at 248.92 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "red_bank.kicad_sch"
+			(at 248.92 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "- Dump" input
+			(at 276.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "41a29810-9347-464e-81c6-0cc09d4f1615")
+		)
+		(pin "- Charging" input
+			(at 276.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1bd5f00-a38e-44d3-9bc5-82c4854e2c46")
+		)
+		(pin "Relay GND" input
+			(at 276.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6a585b7-0c2a-4640-8b43-5c4ae6efffec")
+		)
+		(pin "+ Charging" input
+			(at 276.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ff909ed-50e9-4d92-a6f7-4ee772ce3ad5")
+		)
+		(pin "+ Dump" input
+			(at 276.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6205b779-fd9d-4e5d-a9a8-a9a2011ea3c1")
+		)
+		(pin "Out 8 +" input
+			(at 248.92 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3adcfe5c-7732-4c18-808f-853c082e2471")
+		)
+		(pin "Out 7 +" input
+			(at 248.92 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e665e5a-8c96-411e-869f-5c458d972df5")
+		)
+		(pin "Out 6 +" input
+			(at 248.92 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59e2622b-cdb7-4eed-8080-952d9b04f4b5")
+		)
+		(pin "Out 4 -" input
+			(at 248.92 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89b83067-9465-4766-96c4-ed1e44c1a249")
+		)
+		(pin "Out 5 -" input
+			(at 248.92 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efc44645-4fe0-4315-8f56-56d7767dc599")
+		)
+		(pin "Out 4 +" input
+			(at 248.92 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac4804af-ca20-45c7-a5bd-edd3bf22c9ac")
+		)
+		(pin "Out 5 +" input
+			(at 248.92 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "084b3c4d-5da1-490a-87dc-8269834d0609")
+		)
+		(pin "Out 8 -" input
+			(at 248.92 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e6c560c-97c8-43e5-90b1-1868e093c729")
+		)
+		(pin "Out 6 -" input
+			(at 248.92 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0138427-461c-445e-8612-70a5437f94b0")
+		)
+		(pin "Out 7 -" input
+			(at 248.92 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c8534c1-9ebe-4a4f-b192-2ddca4bc20e1")
+		)
+		(pin "Out 3 +" input
+			(at 248.92 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "833a6920-f007-44af-bb7e-9184d23c8c07")
+		)
+		(pin "Out 1 -" input
+			(at 248.92 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e265474-7426-48a5-b53b-6bf73a83ee69")
+		)
+		(pin "Out 2 -" input
+			(at 248.92 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aba1d970-d738-4702-b62a-350f729e5685")
+		)
+		(pin "Out 1 +" input
+			(at 248.92 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3838a581-9847-482a-a56b-1db0a9d3461b")
+		)
+		(pin "Out 2 +" input
+			(at 248.92 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0849629c-0b5c-44b0-89b2-8f650addc7a1")
+		)
+		(pin "Out 3 -" input
+			(at 248.92 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6d6ed20-bd91-4948-b258-0bb44d684da1")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 101.6)
+		(size 27.94 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a36d6f24-8639-47fb-a269-5f799834ccae")
+		(property "Sheetname" "Blue Cap Bank1"
+			(at 124.46 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "blue_bank.kicad_sch"
+			(at 124.46 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "- Charging" input
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0928a471-4c79-498d-9f68-e6517e8e3497")
+		)
+		(pin "+ Charging" input
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fffc3013-c4cb-48c5-a47f-d8fde12348b6")
+		)
+		(pin "+ Dump" input
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5240d207-9ee5-477a-8121-d675c8aa6a8e")
+		)
+		(pin "Relay GND" input
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e66a077-eeca-4172-bdd2-321be2c63702")
+		)
+		(pin "Out 2 +" input
+			(at 124.46 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ef1a0710-4ae8-42c5-bfd4-b41fc26d6e1e")
+		)
+		(pin "Out 1 +" input
+			(at 124.46 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "290971be-5f65-41f5-9da8-8a785ac03d17")
+		)
+		(pin "Out 2 -" input
+			(at 124.46 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18471a3b-5150-4ed0-a5a1-e0e509c446f1")
+		)
+		(pin "Out 3 -" input
+			(at 124.46 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2afa556a-e179-4129-a388-da12acdb5137")
+		)
+		(pin "Out 4 -" input
+			(at 124.46 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61c6cfa2-67b5-44ef-a440-107cf6b753cb")
+		)
+		(pin "Out 3 +" input
+			(at 124.46 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12c529a1-3d03-4311-abd9-9d8382bf0fbd")
+		)
+		(pin "Out 4 +" input
+			(at 124.46 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c35b3c53-9e48-42c3-95f1-d6b23ccfe50b")
+		)
+		(pin "Out 1 -" input
+			(at 124.46 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0598402-4863-4261-be83-68cfd8ce4344")
+		)
+		(pin "Out 5 +" input
+			(at 124.46 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4a4583d-741b-44f6-b7a9-2ac64bf626b1")
+		)
+		(pin "Out 6 +" input
+			(at 124.46 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aeb7c6de-7e9d-4008-9f4c-1c55d3000e08")
+		)
+		(pin "Out 6 -" input
+			(at 124.46 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02c5d89f-38a3-42fd-80fb-b3f3a1bb56fc")
+		)
+		(pin "Out 5 -" input
+			(at 124.46 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab792627-d1fc-41b4-85b7-595ad88c766b")
+		)
+		(pin "Out 8 +" input
+			(at 124.46 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b71cc384-46fa-4dbc-8ac6-98d247106448")
+		)
+		(pin "Out 7 +" input
+			(at 124.46 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ac53e4a-4b24-4f40-9cf6-13cd00d84ade")
+		)
+		(pin "Out 7 -" input
+			(at 124.46 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dba533ac-56d8-4714-8c8c-d92d884d2138")
+		)
+		(pin "Out 8 -" input
+			(at 124.46 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8809fd1b-c12f-4263-83ae-a32ded5c618c")
+		)
+		(pin "- Dump" input
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "097f2cad-5dc4-4d7c-85b9-5e2ebed9369e")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb"
+					(page "38")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 41.91)
+		(size 27.94 52.07)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +1013,7 @@
 		)
 		(uuid "b111d471-3bf5-464d-8502-0d5689b200c0")
 		(property "Sheetname" "Blue Cap Bank"
-			(at 58.42 42.4684 0)
+			(at 124.46 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +1022,7 @@
 			)
 		)
 		(property "Sheetfile" "blue_bank.kicad_sch"
-			(at 58.42 59.0046 0)
+			(at 124.46 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,18 +1030,8 @@
 				(justify left top)
 			)
 		)
-		(pin "- Dump" input
-			(at 76.2 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b51feadd-01b8-4ebf-9c8e-f7d4399474cc")
-		)
 		(pin "- Charging" input
-			(at 76.2 48.26 0)
+			(at 152.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,7 +1041,7 @@
 			(uuid "5eee37dc-8976-4f2d-bada-f62f18983a4f")
 		)
 		(pin "+ Charging" input
-			(at 76.2 53.34 0)
+			(at 152.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,7 +1051,7 @@
 			(uuid "386f45fb-1476-4094-a01d-3bbaef786c75")
 		)
 		(pin "+ Dump" input
-			(at 76.2 55.88 0)
+			(at 152.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,7 +1061,7 @@
 			(uuid "6b17e5f4-16d3-47c9-a8c4-b8e6bc54cbea")
 		)
 		(pin "Relay GND" input
-			(at 76.2 50.8 0)
+			(at 152.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,10 +1070,376 @@
 			)
 			(uuid "5824fdbe-7ec4-4b5f-a12c-1a0a776c417b")
 		)
+		(pin "Out 2 +" input
+			(at 124.46 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6a54d1a-9cb7-42fc-933d-f09deee81774")
+		)
+		(pin "Out 1 +" input
+			(at 124.46 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5093b859-7d06-4bde-9797-cd3af53cd2da")
+		)
+		(pin "Out 2 -" input
+			(at 124.46 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0ea6e37-af64-4622-bf40-bda30eec3a85")
+		)
+		(pin "Out 3 -" input
+			(at 124.46 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03fb7748-55f9-4e0f-bcb6-78d674d98127")
+		)
+		(pin "Out 4 -" input
+			(at 124.46 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4215538e-b727-458a-9418-88edb0d484e7")
+		)
+		(pin "Out 3 +" input
+			(at 124.46 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7103469a-2bde-4a4a-99e0-7b366d01b4bb")
+		)
+		(pin "Out 4 +" input
+			(at 124.46 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb8f965f-b3f7-40db-8e4c-632a16e76305")
+		)
+		(pin "Out 1 -" input
+			(at 124.46 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91b47aae-f17c-4de0-9534-bc31f7e75ca4")
+		)
+		(pin "Out 5 +" input
+			(at 124.46 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a7e073f7-3dee-49f1-9bec-a416fa35d3b6")
+		)
+		(pin "Out 6 +" input
+			(at 124.46 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e931c578-5df8-4f06-bc0e-7f0525145606")
+		)
+		(pin "Out 6 -" input
+			(at 124.46 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e767a100-2c53-452b-af0d-84c7408fb9b2")
+		)
+		(pin "Out 5 -" input
+			(at 124.46 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88eb6b5e-ddac-4c6c-b793-42f30be4ab0a")
+		)
+		(pin "Out 8 +" input
+			(at 124.46 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c46e178b-8bc9-450f-bb6d-1dbbeb431468")
+		)
+		(pin "Out 7 +" input
+			(at 124.46 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74bf8f34-f9e7-4fdc-86e0-03587d769c42")
+		)
+		(pin "Out 7 -" input
+			(at 124.46 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b1b8e7b-71d2-4170-b597-9d57bf58c9e4")
+		)
+		(pin "Out 8 -" input
+			(at 124.46 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19de1430-2f33-492b-93b6-9d629d35c2da")
+		)
+		(pin "- Dump" input
+			(at 152.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f2d2c57-cb0e-40e2-ab13-3f01d93f909a")
+		)
 		(instances
 			(project "Power_Systems_Complete"
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 251.46 16.51)
+		(size 31.75 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4147529-4e80-441c-940f-bb59eeb52015")
+		(property "Sheetname" "Small Red Cap Bank"
+			(at 251.46 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "red_bank_s.kicad_sch"
+			(at 251.46 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 40.64)
+		(size 24.13 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "debd28ed-d0de-4216-97a8-20490845916a")
+		(property "Sheetname" "SPA"
+			(at 44.45 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spa_complete.kicad_sch"
+			(at 44.45 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Coil Neg" input
+			(at 44.45 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e03a6e5-84e3-4392-83fa-25e782294c3a")
+		)
+		(pin "Bank +" input
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d05f47fb-0a44-491f-b934-ae29aa39b8cc")
+		)
+		(pin "Bank -" input
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6d460ba-9096-42ae-a2f8-b875d8ff93d7")
+		)
+		(pin "Bank GND" input
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1707068c-e660-4d28-af96-3fe2de2e493c")
+		)
+		(pin "Coil Pos" input
+			(at 44.45 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65c29ca2-7841-41a2-ad47-c82d44acb53b")
+		)
+		(pin "Q1" input
+			(at 46.99 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7e89c20-4b59-4621-8c59-513c1102c607")
+		)
+		(pin "Q2" input
+			(at 49.53 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9200c614-47e0-4c73-804a-1d04e09ef11e")
+		)
+		(pin "Q3" input
+			(at 52.07 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56d55ae4-3f13-4058-83fb-922257929dc3")
+		)
+		(pin "Q4" input
+			(at 54.61 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d287e22e-3c26-4fbf-96ba-dc5293349a15")
+		)
+		(pin "AC -" input
+			(at 49.53 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cecda08d-7d6b-4f97-bd4b-b6ff8f55117c")
+		)
+		(pin "Fault" input
+			(at 57.15 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97214283-7332-4bdb-b54e-f41afe54cf45")
+		)
+		(pin "AC +" input
+			(at 46.99 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cfdf88be-4623-4bde-8022-5e48d776a333")
+		)
+		(instances
+			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb"
+					(page "55")
 				)
 			)
 		)
