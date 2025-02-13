@@ -2152,6 +2152,54 @@
       "Charge_Dump Relay1"
     ],
     [
+      "49ea5eae-0e19-411b-837a-0a575a47a40b",
+      "SPA30"
+    ],
+    [
+      "9cb8d3d7-b997-40dd-a137-3292c32631cb",
+      "SPA IGBT Driver Board 1"
+    ],
+    [
+      "d90aff79-17b5-449b-8c13-44ad861487ac",
+      "SPA IGBT Driver Board 2"
+    ],
+    [
+      "3878d60c-5e97-414d-b8c4-2c641c4c0a8c",
+      "SPA IGBT Driver Board 4"
+    ],
+    [
+      "5e241078-0f45-4121-995f-fa044bc4b280",
+      "SPA IGBT Driver Board 3"
+    ],
+    [
+      "90d6133a-13c7-4831-8588-8d9b527fecb8",
+      "SPA Fault Board"
+    ],
+    [
+      "039cca8e-365f-4bea-9cd7-4c705e13a0e3",
+      "SPA31"
+    ],
+    [
+      "9cb8d3d7-b997-40dd-a137-3292c32631cb",
+      "SPA IGBT Driver Board 1"
+    ],
+    [
+      "d90aff79-17b5-449b-8c13-44ad861487ac",
+      "SPA IGBT Driver Board 2"
+    ],
+    [
+      "3878d60c-5e97-414d-b8c4-2c641c4c0a8c",
+      "SPA IGBT Driver Board 4"
+    ],
+    [
+      "5e241078-0f45-4121-995f-fa044bc4b280",
+      "SPA IGBT Driver Board 3"
+    ],
+    [
+      "90d6133a-13c7-4831-8588-8d9b527fecb8",
+      "SPA Fault Board"
+    ],
+    [
       "68fb4aa6-e759-49cb-a804-15a54a001d10",
       "SPA56"
     ],

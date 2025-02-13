@@ -1565,13 +1565,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c92d788-9616-42f4-8b77-713a8a8db4e0")
+			(uuid "d819eb4e-249b-4c27-8487-a43f231fad06")
 		)
 		(pin "2"
-			(uuid "bd203985-8638-4667-a4df-ed6423717b1d")
+			(uuid "2b54edcd-23aa-4c09-9199-4716a84db792")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -1629,6 +1633,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -1845,13 +1853,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "b67aa29f-849e-41ff-bc01-7d0dd7b05967")
+			(uuid "2c5daf24-76dc-46d5-8fa5-bc6741cec63b")
 		)
 		(pin "2"
-			(uuid "90f45c25-7db0-4707-8d90-eb91e6b8c492")
+			(uuid "78b697db-ecd3-469d-8f4e-d02e97ab5401")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -1909,6 +1921,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2125,13 +2141,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "72d0f709-befc-4636-a1be-646441206dc2")
+			(uuid "9c62c39e-ff9d-443c-aad0-b5c50d6decc3")
 		)
 		(pin "2"
-			(uuid "e86e512d-e0c0-41b9-a7c6-8650f283206d")
+			(uuid "5d81653e-49ed-4783-9f49-e3d478130203")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -2189,6 +2209,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2405,13 +2429,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "4130603d-a014-47a7-aa19-883469e49ca1")
+			(uuid "bae54a63-c4e6-4561-a45e-7d2ce8ceec33")
 		)
 		(pin "2"
-			(uuid "6767e014-4400-454a-8926-6066a2a960dc")
+			(uuid "cbd4b520-14d9-4824-b424-bded53cded21")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -2469,6 +2497,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2685,13 +2717,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "468d5f91-f8fc-4b56-b3d1-35fd4ad0aa62")
+			(uuid "31e1cd8e-cc05-4b1b-b3e0-5aa96dd52717")
 		)
 		(pin "2"
-			(uuid "a570d08f-c64b-438b-bb84-a5f1abd809fe")
+			(uuid "378efdc6-139e-48c2-a465-eae2fde59390")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -2749,6 +2785,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2965,13 +3005,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fe6e109-0ee5-451f-9311-f242c9392572")
+			(uuid "0c0e36c9-91ac-4af9-98e1-4032b4caf451")
 		)
 		(pin "2"
-			(uuid "e1cdd056-0606-40dc-a790-6bfeaba75b32")
+			(uuid "0d7c45ed-79c9-4b89-b861-ac1cdb841fe9")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -3029,6 +3073,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3245,13 +3293,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0c9b15b-4bba-4bef-bfce-ebe179392d1b")
+			(uuid "352eef29-0d40-4f69-b0af-78ec8b02db35")
 		)
 		(pin "2"
-			(uuid "46c14fbd-6ead-43e3-bfff-32530d1f84d3")
+			(uuid "5cc6814e-4edf-4321-a46f-f6ceb32d0336")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -3309,6 +3361,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3525,13 +3581,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "d048392c-9c97-4f32-8315-9bbf5cdeedc3")
+			(uuid "bf064077-ad83-4df4-b9d3-b78e934ed436")
 		)
 		(pin "2"
-			(uuid "ce5f4281-adb0-4d0d-b228-627902053b06")
+			(uuid "6e8b5ed2-3ca6-470a-abb4-725d4b5e3b43")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -3589,6 +3649,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3801,13 +3865,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "99c6298b-34c1-4f56-bacf-4dd2531c28b2")
+			(uuid "9a4cf5ca-a6b0-4c74-aa45-9170f17747a1")
 		)
 		(pin "2"
-			(uuid "32547d1a-5234-4f69-8e01-790a8c1cf08e")
+			(uuid "982b70e0-5de2-4f5a-abac-d260332da125")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -3865,6 +3933,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4081,13 +4153,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "963eca3f-8bdf-4e2b-b5d4-a94cda0cd436")
+			(uuid "ab42d6d9-2266-4a69-947c-1417347ac0eb")
 		)
 		(pin "2"
-			(uuid "32c48930-8725-4967-a1a9-5633afe18407")
+			(uuid "662d6adf-c7cc-4453-a490-42da91e853ea")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -4145,6 +4221,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4361,13 +4441,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6606f1d-de40-4e6c-bb93-a90c2aefadfc")
+			(uuid "85eff88f-0a60-4248-8da2-ed90dffed550")
 		)
 		(pin "2"
-			(uuid "fcd5ad00-51c6-4eb5-baeb-eac5cd0917ca")
+			(uuid "346a08ee-3f93-403b-ba43-074cef1d94f3")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -4425,6 +4509,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4641,13 +4729,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "e73f595d-c600-4cda-8e43-802cc1f9d226")
+			(uuid "9f2cc948-b84f-4bef-94f1-537cc304aaec")
 		)
 		(pin "2"
-			(uuid "b3c59704-b462-431a-ab58-96af5227da51")
+			(uuid "5f50e86b-d510-40a3-96dc-94c7a4cae1a8")
 		)
 		(instances
 			(project "Power_Systems_Complete"
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/05ba19df-b945-4f20-8087-46ff0b268c55"
 					(reference "C?")
 					(unit 1)
@@ -4705,6 +4797,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/45fb2017-8c81-4524-bcb5-8c6a63ddf366"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4905,7 +5001,7 @@
 				)
 				(justify left)
 			)
-			(uuid "cba6bfc9-56f7-4c18-bb10-72395af8cc92")
+			(uuid "3ca779d9-6104-4a1a-9b56-ae57dde52d96")
 		)
 		(pin "OUT connection to Fault Board" input
 			(at 170.18 133.35 180)
@@ -4915,7 +5011,7 @@
 				)
 				(justify left)
 			)
-			(uuid "2ebad0a6-b1e7-4a11-990b-25cc99308d3a")
+			(uuid "cb98d967-1ece-453a-a05c-283da4b21ab1")
 		)
 		(pin "+5V connection from Fault Board" input
 			(at 170.18 149.86 180)
@@ -4925,7 +5021,7 @@
 				)
 				(justify left)
 			)
-			(uuid "60b81beb-03ca-445f-9a1d-35efe35106d6")
+			(uuid "69d5da3e-c681-4de8-9e66-d22cd41e4260")
 		)
 		(pin "Fault Board AC Source Connection 1" input
 			(at 170.18 142.24 180)
@@ -4935,7 +5031,7 @@
 				)
 				(justify left)
 			)
-			(uuid "909246ab-a4fa-4d33-99ae-9d178b5bcfe6")
+			(uuid "4c511426-e220-48fa-a8af-ec073f2aaedc")
 		)
 		(pin "Fault Board AC Source Connection 2" input
 			(at 170.18 139.7 180)
@@ -4945,7 +5041,7 @@
 				)
 				(justify left)
 			)
-			(uuid "92f551f8-92e2-4064-b4c3-1b6fcc7132c0")
+			(uuid "138eb4c6-f1a2-44f0-adae-b7a3fe617787")
 		)
 		(pin "Trig" input
 			(at 219.71 129.54 90)
@@ -4955,7 +5051,7 @@
 				)
 				(justify right)
 			)
-			(uuid "91318369-9c0c-4683-920d-d1f05a9d396e")
+			(uuid "47f89188-ec81-4175-8b18-7c2fa395a2dc")
 		)
 		(pin "SW -" input
 			(at 232.41 148.59 0)
@@ -4965,7 +5061,7 @@
 				)
 				(justify right)
 			)
-			(uuid "541ab0ff-66d3-444e-ad7f-eb0691e278f4")
+			(uuid "b8837b12-33b9-4582-b7a6-0c5488c43062")
 		)
 		(pin "SW +" input
 			(at 232.41 137.16 0)
@@ -4975,7 +5071,7 @@
 				)
 				(justify right)
 			)
-			(uuid "8bbac35a-3cf8-4aad-a2f5-d21dd291df7c")
+			(uuid "2f81e6bb-ae35-481b-81f6-6ef718803759")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -5141,6 +5237,12 @@
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/c3978e73-b553-4952-90d3-2e6a03e6f83e"
 					(page "480")
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
+					(page "446")
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(page "452")
+				)
 			)
 		)
 	)
@@ -5182,7 +5284,7 @@
 				)
 				(justify left)
 			)
-			(uuid "c5bf9459-5e92-458f-9ae3-488045ff316d")
+			(uuid "8b450e0f-8f13-4d2a-9f3d-d611c3199aa9")
 		)
 		(pin "OUT connection to Fault Board" input
 			(at 170.18 99.06 180)
@@ -5192,7 +5294,7 @@
 				)
 				(justify left)
 			)
-			(uuid "3964c3d2-6d7f-4182-b8f1-3218320c3563")
+			(uuid "ebed6ec0-9c01-4904-812c-86aa11e1bc4f")
 		)
 		(pin "+5V connection from Fault Board" input
 			(at 170.18 115.57 180)
@@ -5202,7 +5304,7 @@
 				)
 				(justify left)
 			)
-			(uuid "6acfe634-0328-4e8a-8d8b-33dd4ff55fab")
+			(uuid "e03e0494-270e-4f3b-b762-34d88472344c")
 		)
 		(pin "Fault Board AC Source Connection 1" input
 			(at 170.18 107.95 180)
@@ -5212,7 +5314,7 @@
 				)
 				(justify left)
 			)
-			(uuid "f3bb8bf3-5cde-4a75-821d-5acff9ee0b87")
+			(uuid "c3929a24-3440-4085-aee5-34cfbc106645")
 		)
 		(pin "Fault Board AC Source Connection 2" input
 			(at 170.18 105.41 180)
@@ -5222,7 +5324,7 @@
 				)
 				(justify left)
 			)
-			(uuid "f317b307-b2ff-44ba-83b5-12ff32ff92cf")
+			(uuid "ce8d49c4-7e82-41bb-b1dc-67e202f12198")
 		)
 		(pin "Trig" input
 			(at 219.71 95.25 90)
@@ -5232,7 +5334,7 @@
 				)
 				(justify right)
 			)
-			(uuid "d90cb2b1-b151-4821-b774-b9449e263514")
+			(uuid "1e86c13b-5956-495d-a8ec-f913ca659fc4")
 		)
 		(pin "SW -" input
 			(at 232.41 114.3 0)
@@ -5242,7 +5344,7 @@
 				)
 				(justify right)
 			)
-			(uuid "b7a29566-a90a-4137-9a19-29a17f52ba2d")
+			(uuid "8a31da0c-b3d6-4e67-a5fa-921beb349616")
 		)
 		(pin "SW +" input
 			(at 232.41 102.87 0)
@@ -5252,7 +5354,7 @@
 				)
 				(justify right)
 			)
-			(uuid "3b5dbda8-1148-45fa-8263-06291de3a63b")
+			(uuid "9b927e65-eec9-4b33-8aab-17793c3e68b1")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -5418,6 +5520,12 @@
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/c3978e73-b553-4952-90d3-2e6a03e6f83e"
 					(page "481")
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
+					(page "447")
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(page "453")
+				)
 			)
 		)
 	)
@@ -5459,7 +5567,7 @@
 				)
 				(justify right)
 			)
-			(uuid "8d899e6c-edd5-487e-8d39-ce1fa52686da")
+			(uuid "7ea42978-eaa9-44e6-8de5-c3a9bcd8456d")
 		)
 		(pin "OUT connection from Driver Board 1" input
 			(at 97.79 152.4 0)
@@ -5469,7 +5577,7 @@
 				)
 				(justify right)
 			)
-			(uuid "080c5c0d-58cc-45ea-8916-1d7ff2236c88")
+			(uuid "091bc272-51fa-4123-bd46-24ea075eee0f")
 		)
 		(pin "OUT connection from Driver Board 2" input
 			(at 97.79 157.48 0)
@@ -5479,7 +5587,7 @@
 				)
 				(justify right)
 			)
-			(uuid "e390ffff-33d1-472a-80ab-2b006c1f0c19")
+			(uuid "3423039d-35fb-41e3-ac56-368b5b993e4e")
 		)
 		(pin "OUT connection from Driver Board 3" input
 			(at 97.79 162.56 0)
@@ -5489,7 +5597,7 @@
 				)
 				(justify right)
 			)
-			(uuid "bb4a2833-c921-4a90-bbda-f3b61b094aab")
+			(uuid "6e27dc1b-5468-447f-836a-f59198181289")
 		)
 		(pin "GND connection to Driver Board" input
 			(at 97.79 184.15 0)
@@ -5499,7 +5607,7 @@
 				)
 				(justify right)
 			)
-			(uuid "69be1bf4-66be-4c83-b37a-30f36671ffc2")
+			(uuid "b6b7a6fe-057e-42a7-877d-cddc4a39791a")
 		)
 		(pin "+5V connection to Driver Board" input
 			(at 97.79 181.61 0)
@@ -5509,7 +5617,7 @@
 				)
 				(justify right)
 			)
-			(uuid "57ff06bf-daab-4a6e-82e9-151a6f6e487f")
+			(uuid "bdb1f7f3-28da-48d2-96ca-70d47e210d2c")
 		)
 		(pin "AC Source connection 2" input
 			(at 22.86 180.34 180)
@@ -5519,7 +5627,7 @@
 				)
 				(justify left)
 			)
-			(uuid "867292f1-7007-4b8d-bd3a-b4928ee3a631")
+			(uuid "30d6f430-9cc3-4f36-89d7-2ae4816afe68")
 		)
 		(pin "AC out 2" input
 			(at 97.79 139.7 0)
@@ -5529,7 +5637,7 @@
 				)
 				(justify right)
 			)
-			(uuid "61625e03-6002-4992-a0fd-21163163bfd7")
+			(uuid "e3778c28-b21d-4ce3-b308-6b2698ffb5ad")
 		)
 		(pin "AC Source connection 1" input
 			(at 22.86 177.8 180)
@@ -5539,7 +5647,7 @@
 				)
 				(justify left)
 			)
-			(uuid "704409c8-1511-4ce4-8b94-1b140921cec5")
+			(uuid "0e69f5ad-4a36-42e3-aec6-afbfee213da6")
 		)
 		(pin "AC out 1" input
 			(at 97.79 142.24 0)
@@ -5549,7 +5657,7 @@
 				)
 				(justify right)
 			)
-			(uuid "131efc30-2382-4972-8968-7fb3b7942c45")
+			(uuid "b1d19633-7300-4e8b-879a-ce7e51069be9")
 		)
 		(pin "Fault" input
 			(at 50.8 133.35 90)
@@ -5559,7 +5667,7 @@
 				)
 				(justify right)
 			)
-			(uuid "2c6545e0-98d2-493c-acb6-7bbb8443a6c2")
+			(uuid "a6e90e1c-0be4-4e6b-bc89-e21aaa900845")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -5725,6 +5833,12 @@
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/c3978e73-b553-4952-90d3-2e6a03e6f83e"
 					(page "482")
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
+					(page "448")
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(page "454")
+				)
 			)
 		)
 	)
@@ -5766,7 +5880,7 @@
 				)
 				(justify left)
 			)
-			(uuid "2f85d539-0063-495f-8115-51806dd12d09")
+			(uuid "b9dd384d-7de4-442c-b524-6ee4ff92343c")
 		)
 		(pin "OUT connection to Fault Board" input
 			(at 170.18 31.75 180)
@@ -5776,7 +5890,7 @@
 				)
 				(justify left)
 			)
-			(uuid "eb95bd1e-0d34-4698-9c8c-b505ccf67ae4")
+			(uuid "11fb75c8-03c5-46a3-86f5-28606530f7d9")
 		)
 		(pin "+5V connection from Fault Board" input
 			(at 170.18 48.26 180)
@@ -5786,7 +5900,7 @@
 				)
 				(justify left)
 			)
-			(uuid "5b37fb0c-aab8-482f-9017-a2b52626ca0c")
+			(uuid "e61d54f7-ac7a-43df-8b44-b466bc596616")
 		)
 		(pin "Fault Board AC Source Connection 1" input
 			(at 170.18 40.64 180)
@@ -5796,7 +5910,7 @@
 				)
 				(justify left)
 			)
-			(uuid "c9a2de45-124a-4d22-9b38-504cb034bda1")
+			(uuid "185bbe68-590d-4a73-9f8f-14ec9961ea97")
 		)
 		(pin "Fault Board AC Source Connection 2" input
 			(at 170.18 38.1 180)
@@ -5806,7 +5920,7 @@
 				)
 				(justify left)
 			)
-			(uuid "8c19a739-ecb8-411b-b605-2392bc8d4399")
+			(uuid "dec45060-4051-482b-9aea-50bdfc7c162c")
 		)
 		(pin "Trig" input
 			(at 219.71 27.94 90)
@@ -5816,7 +5930,7 @@
 				)
 				(justify right)
 			)
-			(uuid "0eab9b73-8fca-4076-b4e8-a31847c4def7")
+			(uuid "5a9fc876-ac35-4abb-93a5-b2809781533f")
 		)
 		(pin "SW -" input
 			(at 232.41 46.99 0)
@@ -5826,7 +5940,7 @@
 				)
 				(justify right)
 			)
-			(uuid "01f3d160-b281-443a-a4e8-20045485c7ad")
+			(uuid "c6438011-775f-4952-95d0-5a754065fca6")
 		)
 		(pin "SW +" input
 			(at 232.41 35.56 0)
@@ -5836,7 +5950,7 @@
 				)
 				(justify right)
 			)
-			(uuid "fb19b9d5-1930-47b0-b924-54d85e204092")
+			(uuid "215bf02c-1dc4-440f-ae88-05c9fbec1082")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -6002,6 +6116,12 @@
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/c3978e73-b553-4952-90d3-2e6a03e6f83e"
 					(page "478")
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
+					(page "444")
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(page "450")
+				)
 			)
 		)
 	)
@@ -6043,7 +6163,7 @@
 				)
 				(justify left)
 			)
-			(uuid "ab0e3082-1df7-4e72-bf34-e2de6fbc5092")
+			(uuid "37f05495-012e-4efe-8370-679a06cbf009")
 		)
 		(pin "OUT connection to Fault Board" input
 			(at 170.18 64.77 180)
@@ -6053,7 +6173,7 @@
 				)
 				(justify left)
 			)
-			(uuid "055406c9-d40c-4f8d-be57-0d50489b531c")
+			(uuid "14f73d79-71f5-4946-baa9-b51801913e06")
 		)
 		(pin "+5V connection from Fault Board" input
 			(at 170.18 81.28 180)
@@ -6063,7 +6183,7 @@
 				)
 				(justify left)
 			)
-			(uuid "0dd56ed7-9c95-40f5-bc66-3a8e0b34b63f")
+			(uuid "c8c5bb29-f8e0-4156-b7b8-796c066d7430")
 		)
 		(pin "Fault Board AC Source Connection 1" input
 			(at 170.18 73.66 180)
@@ -6073,7 +6193,7 @@
 				)
 				(justify left)
 			)
-			(uuid "2500a8c1-e572-4eff-8130-73717ede2f4a")
+			(uuid "937d8ff1-ac30-43aa-9dc5-d13d598399c7")
 		)
 		(pin "Fault Board AC Source Connection 2" input
 			(at 170.18 71.12 180)
@@ -6083,7 +6203,7 @@
 				)
 				(justify left)
 			)
-			(uuid "9fc21c3f-a92e-4210-a729-59af52e655cb")
+			(uuid "3afacae5-ab71-4767-9029-4f9e0d3d5052")
 		)
 		(pin "Trig" input
 			(at 219.71 60.96 90)
@@ -6093,7 +6213,7 @@
 				)
 				(justify right)
 			)
-			(uuid "18ac2575-70e6-4f17-b582-290810d40e86")
+			(uuid "8e86667b-da48-43c1-8427-925147e4a36f")
 		)
 		(pin "SW -" input
 			(at 232.41 80.01 0)
@@ -6103,7 +6223,7 @@
 				)
 				(justify right)
 			)
-			(uuid "efd3ff9b-1516-421c-bad8-0c7ebec80f63")
+			(uuid "4607cf10-c51f-411a-9908-0069061d374c")
 		)
 		(pin "SW +" input
 			(at 232.41 68.58 0)
@@ -6113,7 +6233,7 @@
 				)
 				(justify right)
 			)
-			(uuid "9b95cbcc-8dc4-4537-a026-6e2477af939d")
+			(uuid "d145d312-99b0-4328-af44-365efdd964df")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -6278,6 +6398,12 @@
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/c3978e73-b553-4952-90d3-2e6a03e6f83e"
 					(page "479")
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/49ea5eae-0e19-411b-837a-0a575a47a40b"
+					(page "445")
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/039cca8e-365f-4bea-9cd7-4c705e13a0e3"
+					(page "451")
 				)
 			)
 		)
