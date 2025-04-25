@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "322d8d79-3c3a-43d3-9a0e-cfcbcd8b7718")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -113,9 +117,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -163,6 +167,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1370,7 +1375,6 @@
 	(hierarchical_label "Q1"
 		(shape input)
 		(at 219.71 24.13 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1382,7 +1386,6 @@
 	(hierarchical_label "AC +"
 		(shape input)
 		(at 20.32 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1394,7 +1397,6 @@
 	(hierarchical_label "Q3"
 		(shape input)
 		(at 219.71 92.71 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1406,7 +1408,6 @@
 	(hierarchical_label "Bank GND"
 		(shape input)
 		(at 381 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1418,7 +1419,6 @@
 	(hierarchical_label "Q4"
 		(shape input)
 		(at 219.71 127 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,7 +1430,6 @@
 	(hierarchical_label "Coil Neg"
 		(shape input)
 		(at 381 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1442,7 +1441,6 @@
 	(hierarchical_label "Q2"
 		(shape input)
 		(at 219.71 58.42 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1454,7 +1452,6 @@
 	(hierarchical_label "Coil Pos"
 		(shape input)
 		(at 381 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1466,7 +1463,6 @@
 	(hierarchical_label "Fault"
 		(shape input)
 		(at 50.8 129.54 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1478,7 +1474,6 @@
 	(hierarchical_label "Bank +"
 		(shape input)
 		(at 381 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1490,7 +1485,6 @@
 	(hierarchical_label "Bank -"
 		(shape input)
 		(at 381 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1502,7 +1496,6 @@
 	(hierarchical_label "AC -"
 		(shape input)
 		(at 20.32 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,6 +1669,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -1712,6 +1709,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -1725,6 +1726,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -1765,6 +1770,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -1964,6 +1973,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -2000,6 +2013,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -2013,6 +2030,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2053,6 +2074,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2252,6 +2277,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -2288,6 +2317,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -2301,6 +2334,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2341,6 +2378,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2540,6 +2581,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -2576,6 +2621,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -2589,6 +2638,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2629,6 +2682,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2828,6 +2885,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -2864,6 +2925,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -2877,6 +2942,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -2917,6 +2986,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3116,6 +3189,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -3152,6 +3229,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -3165,6 +3246,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3205,6 +3290,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3404,6 +3493,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -3440,6 +3533,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -3453,6 +3550,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3493,6 +3594,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3692,6 +3797,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -3728,6 +3837,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -3741,6 +3854,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3772,11 +3889,19 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/debd28ed-d0de-4216-97a8-20490845916a"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e3cf9868-938c-4b68-a278-299b5240ec7f"
 					(reference "C?")
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -3976,6 +4101,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -4012,6 +4141,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -4025,6 +4158,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4065,6 +4202,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4264,6 +4405,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -4300,6 +4445,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -4313,6 +4462,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4353,6 +4506,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4552,6 +4709,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -4588,6 +4749,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -4601,6 +4766,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4641,6 +4810,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e46d3047-39aa-4c30-8275-14d3a4c670f4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4840,6 +5013,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7a5789db-1a47-408a-a04e-c951186787e0"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/7cdcdc3b-4724-44d3-96e3-ea0b93d92a52"
 					(reference "C?")
 					(unit 1)
@@ -4876,6 +5053,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b06258e7-beb9-4ee3-896c-e039d2dc1fdc"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b1802907-baf8-4438-9fa6-d86f1477c555"
 					(reference "C?")
 					(unit 1)
@@ -4889,6 +5070,10 @@
 					(unit 1)
 				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/b92e221c-6aa6-4377-ad00-758502fce401"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/ba61d0fa-11f7-495b-89f3-16e4edff0b6e"
 					(reference "C?")
 					(unit 1)
 				)
@@ -4932,6 +5117,10 @@
 					(reference "C?")
 					(unit 1)
 				)
+				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e64b5a62-9d0b-4562-a376-ef220156efe1"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/c716675b-d754-4b87-99eb-660dfcc257fb/e943fa63-905c-4df0-86d3-ea60f52e5fd5"
 					(reference "C?")
 					(unit 1)
@@ -4966,6 +5155,10 @@
 	(sheet
 		(at 170.18 129.54)
 		(size 62.23 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4995,83 +5188,83 @@
 		)
 		(pin "GND connection from Fault Board" input
 			(at 170.18 152.4 180)
+			(uuid "3ca779d9-6104-4a1a-9b56-ae57dde52d96")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3ca779d9-6104-4a1a-9b56-ae57dde52d96")
 		)
 		(pin "OUT connection to Fault Board" input
 			(at 170.18 133.35 180)
+			(uuid "cb98d967-1ece-453a-a05c-283da4b21ab1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cb98d967-1ece-453a-a05c-283da4b21ab1")
 		)
 		(pin "+5V connection from Fault Board" input
 			(at 170.18 149.86 180)
+			(uuid "69d5da3e-c681-4de8-9e66-d22cd41e4260")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "69d5da3e-c681-4de8-9e66-d22cd41e4260")
 		)
 		(pin "Fault Board AC Source Connection 1" input
 			(at 170.18 142.24 180)
+			(uuid "4c511426-e220-48fa-a8af-ec073f2aaedc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4c511426-e220-48fa-a8af-ec073f2aaedc")
 		)
 		(pin "Fault Board AC Source Connection 2" input
 			(at 170.18 139.7 180)
+			(uuid "138eb4c6-f1a2-44f0-adae-b7a3fe617787")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "138eb4c6-f1a2-44f0-adae-b7a3fe617787")
 		)
 		(pin "Trig" input
 			(at 219.71 129.54 90)
+			(uuid "47f89188-ec81-4175-8b18-7c2fa395a2dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "47f89188-ec81-4175-8b18-7c2fa395a2dc")
 		)
 		(pin "SW -" input
 			(at 232.41 148.59 0)
+			(uuid "b8837b12-33b9-4582-b7a6-0c5488c43062")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b8837b12-33b9-4582-b7a6-0c5488c43062")
 		)
 		(pin "SW +" input
 			(at 232.41 137.16 0)
+			(uuid "2f81e6bb-ae35-481b-81f6-6ef718803759")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2f81e6bb-ae35-481b-81f6-6ef718803759")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -5249,6 +5442,10 @@
 	(sheet
 		(at 170.18 95.25)
 		(size 62.23 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5278,83 +5475,83 @@
 		)
 		(pin "GND connection from Fault Board" input
 			(at 170.18 118.11 180)
+			(uuid "8b450e0f-8f13-4d2a-9f3d-d611c3199aa9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8b450e0f-8f13-4d2a-9f3d-d611c3199aa9")
 		)
 		(pin "OUT connection to Fault Board" input
 			(at 170.18 99.06 180)
+			(uuid "ebed6ec0-9c01-4904-812c-86aa11e1bc4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ebed6ec0-9c01-4904-812c-86aa11e1bc4f")
 		)
 		(pin "+5V connection from Fault Board" input
 			(at 170.18 115.57 180)
+			(uuid "e03e0494-270e-4f3b-b762-34d88472344c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e03e0494-270e-4f3b-b762-34d88472344c")
 		)
 		(pin "Fault Board AC Source Connection 1" input
 			(at 170.18 107.95 180)
+			(uuid "c3929a24-3440-4085-aee5-34cfbc106645")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c3929a24-3440-4085-aee5-34cfbc106645")
 		)
 		(pin "Fault Board AC Source Connection 2" input
 			(at 170.18 105.41 180)
+			(uuid "ce8d49c4-7e82-41bb-b1dc-67e202f12198")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ce8d49c4-7e82-41bb-b1dc-67e202f12198")
 		)
 		(pin "Trig" input
 			(at 219.71 95.25 90)
+			(uuid "1e86c13b-5956-495d-a8ec-f913ca659fc4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1e86c13b-5956-495d-a8ec-f913ca659fc4")
 		)
 		(pin "SW -" input
 			(at 232.41 114.3 0)
+			(uuid "8a31da0c-b3d6-4e67-a5fa-921beb349616")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8a31da0c-b3d6-4e67-a5fa-921beb349616")
 		)
 		(pin "SW +" input
 			(at 232.41 102.87 0)
+			(uuid "9b927e65-eec9-4b33-8aab-17793c3e68b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9b927e65-eec9-4b33-8aab-17793c3e68b1")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -5532,6 +5729,10 @@
 	(sheet
 		(at 22.86 133.35)
 		(size 74.93 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5561,113 +5762,113 @@
 		)
 		(pin "OUT connection from Driver Board 4" input
 			(at 97.79 167.64 0)
+			(uuid "7ea42978-eaa9-44e6-8de5-c3a9bcd8456d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7ea42978-eaa9-44e6-8de5-c3a9bcd8456d")
 		)
 		(pin "OUT connection from Driver Board 1" input
 			(at 97.79 152.4 0)
+			(uuid "091bc272-51fa-4123-bd46-24ea075eee0f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "091bc272-51fa-4123-bd46-24ea075eee0f")
 		)
 		(pin "OUT connection from Driver Board 2" input
 			(at 97.79 157.48 0)
+			(uuid "3423039d-35fb-41e3-ac56-368b5b993e4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3423039d-35fb-41e3-ac56-368b5b993e4e")
 		)
 		(pin "OUT connection from Driver Board 3" input
 			(at 97.79 162.56 0)
+			(uuid "6e27dc1b-5468-447f-836a-f59198181289")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6e27dc1b-5468-447f-836a-f59198181289")
 		)
 		(pin "GND connection to Driver Board" input
 			(at 97.79 184.15 0)
+			(uuid "b6b7a6fe-057e-42a7-877d-cddc4a39791a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b6b7a6fe-057e-42a7-877d-cddc4a39791a")
 		)
 		(pin "+5V connection to Driver Board" input
 			(at 97.79 181.61 0)
+			(uuid "bdb1f7f3-28da-48d2-96ca-70d47e210d2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bdb1f7f3-28da-48d2-96ca-70d47e210d2c")
 		)
 		(pin "AC Source connection 2" input
 			(at 22.86 180.34 180)
+			(uuid "30d6f430-9cc3-4f36-89d7-2ae4816afe68")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "30d6f430-9cc3-4f36-89d7-2ae4816afe68")
 		)
 		(pin "AC out 2" input
 			(at 97.79 139.7 0)
+			(uuid "e3778c28-b21d-4ce3-b308-6b2698ffb5ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e3778c28-b21d-4ce3-b308-6b2698ffb5ad")
 		)
 		(pin "AC Source connection 1" input
 			(at 22.86 177.8 180)
+			(uuid "0e69f5ad-4a36-42e3-aec6-afbfee213da6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0e69f5ad-4a36-42e3-aec6-afbfee213da6")
 		)
 		(pin "AC out 1" input
 			(at 97.79 142.24 0)
+			(uuid "b1d19633-7300-4e8b-879a-ce7e51069be9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b1d19633-7300-4e8b-879a-ce7e51069be9")
 		)
 		(pin "Fault" input
 			(at 50.8 133.35 90)
+			(uuid "a6e90e1c-0be4-4e6b-bc89-e21aaa900845")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a6e90e1c-0be4-4e6b-bc89-e21aaa900845")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -5845,6 +6046,10 @@
 	(sheet
 		(at 170.18 27.94)
 		(size 62.23 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5874,83 +6079,83 @@
 		)
 		(pin "GND connection from Fault Board" input
 			(at 170.18 50.8 180)
+			(uuid "b9dd384d-7de4-442c-b524-6ee4ff92343c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b9dd384d-7de4-442c-b524-6ee4ff92343c")
 		)
 		(pin "OUT connection to Fault Board" input
 			(at 170.18 31.75 180)
+			(uuid "11fb75c8-03c5-46a3-86f5-28606530f7d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "11fb75c8-03c5-46a3-86f5-28606530f7d9")
 		)
 		(pin "+5V connection from Fault Board" input
 			(at 170.18 48.26 180)
+			(uuid "e61d54f7-ac7a-43df-8b44-b466bc596616")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e61d54f7-ac7a-43df-8b44-b466bc596616")
 		)
 		(pin "Fault Board AC Source Connection 1" input
 			(at 170.18 40.64 180)
+			(uuid "185bbe68-590d-4a73-9f8f-14ec9961ea97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "185bbe68-590d-4a73-9f8f-14ec9961ea97")
 		)
 		(pin "Fault Board AC Source Connection 2" input
 			(at 170.18 38.1 180)
+			(uuid "dec45060-4051-482b-9aea-50bdfc7c162c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dec45060-4051-482b-9aea-50bdfc7c162c")
 		)
 		(pin "Trig" input
 			(at 219.71 27.94 90)
+			(uuid "5a9fc876-ac35-4abb-93a5-b2809781533f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5a9fc876-ac35-4abb-93a5-b2809781533f")
 		)
 		(pin "SW -" input
 			(at 232.41 46.99 0)
+			(uuid "c6438011-775f-4952-95d0-5a754065fca6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c6438011-775f-4952-95d0-5a754065fca6")
 		)
 		(pin "SW +" input
 			(at 232.41 35.56 0)
+			(uuid "215bf02c-1dc4-440f-ae88-05c9fbec1082")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "215bf02c-1dc4-440f-ae88-05c9fbec1082")
 		)
 		(instances
 			(project "Power_Systems_Complete"
@@ -6128,6 +6333,10 @@
 	(sheet
 		(at 170.18 60.96)
 		(size 62.23 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6157,83 +6366,83 @@
 		)
 		(pin "GND connection from Fault Board" input
 			(at 170.18 83.82 180)
+			(uuid "37f05495-012e-4efe-8370-679a06cbf009")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37f05495-012e-4efe-8370-679a06cbf009")
 		)
 		(pin "OUT connection to Fault Board" input
 			(at 170.18 64.77 180)
+			(uuid "14f73d79-71f5-4946-baa9-b51801913e06")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "14f73d79-71f5-4946-baa9-b51801913e06")
 		)
 		(pin "+5V connection from Fault Board" input
 			(at 170.18 81.28 180)
+			(uuid "c8c5bb29-f8e0-4156-b7b8-796c066d7430")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c8c5bb29-f8e0-4156-b7b8-796c066d7430")
 		)
 		(pin "Fault Board AC Source Connection 1" input
 			(at 170.18 73.66 180)
+			(uuid "937d8ff1-ac30-43aa-9dc5-d13d598399c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "937d8ff1-ac30-43aa-9dc5-d13d598399c7")
 		)
 		(pin "Fault Board AC Source Connection 2" input
 			(at 170.18 71.12 180)
+			(uuid "3afacae5-ab71-4767-9029-4f9e0d3d5052")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3afacae5-ab71-4767-9029-4f9e0d3d5052")
 		)
 		(pin "Trig" input
 			(at 219.71 60.96 90)
+			(uuid "8e86667b-da48-43c1-8427-925147e4a36f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8e86667b-da48-43c1-8427-925147e4a36f")
 		)
 		(pin "SW -" input
 			(at 232.41 80.01 0)
+			(uuid "4607cf10-c51f-411a-9908-0069061d374c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4607cf10-c51f-411a-9908-0069061d374c")
 		)
 		(pin "SW +" input
 			(at 232.41 68.58 0)
+			(uuid "d145d312-99b0-4328-af44-365efdd964df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d145d312-99b0-4328-af44-365efdd964df")
 		)
 		(instances
 			(project "Power_Systems_Complete"
