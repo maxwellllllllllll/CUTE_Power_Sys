@@ -42,3 +42,9 @@ fp-info-cache
 *.raw
 .svg2shenzhen-cache
 *.zip
+
+
+# for LTspice
+*.log
+*.raw
+*.op.raw
