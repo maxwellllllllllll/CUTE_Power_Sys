@@ -1,0 +1,24 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 0 -16 0
+LINE Normal 48 0 16 0
+LINE Normal -16 20 -16 32
+LINE Normal -12 15 -16 20
+LINE Normal 16 20 16 32
+LINE Normal 12 15 16 20
+LINE Normal 16 -5 -16 0
+CIRCLE Normal 19 19 -19 -19
+CIRCLE Normal 13 -3 19 3
+TEXT 64 -48 Left 2 SPST-NC
+PIN -48 0 BOTTOM 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN 48 0 BOTTOM 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2
+PIN -16 32 RIGHT 8
+PINATTR PinName -
+PINATTR SpiceOrder 3
+PIN 16 32 LEFT 8
+PINATTR PinName +
+PINATTR SpiceOrder 4
