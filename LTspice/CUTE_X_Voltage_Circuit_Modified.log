@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * G:\My Drive\College\Plasma Lab\CUTE\CUTE_Schematics\LTspice\CUTE_X_Voltage_Circuit_Modified.asc
-Start Time: Wed Jun  4 14:33:55 2025
+Start Time: Thu Jun  5 16:47:11 2025
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -20,5 +20,5 @@ Ignoring empty pin current: Ix(x1:-)
 Ignoring empty pin current: Ix(x2:-)
 Ignoring empty pin current: Ix(x3:-)
 Ignoring empty pin current: Ix(x4:-)
-Total elapsed time: 0.341 seconds.
+Total elapsed time: 0.187 seconds.
 
