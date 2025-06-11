@@ -20,6 +20,7 @@ fp-info-cache
 /build
 *.lck
 \#auto_saved_files#
+*.DS_Store
 
 
 # Netlist files (exported from Eeschema)
